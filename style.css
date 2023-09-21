@@ -1,0 +1,400 @@
+/* CSS Document */
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  position: relative;
+  font-family: apparat-light, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  font-style: normal;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100vw;
+  max-width: 100% !important;
+}
+
+ul,
+ol {
+  margin-left: 1.1em;
+  padding-left: 0.25em;
+}
+li {
+  list-style: none;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  border: none;
+}
+
+/* Headings  and   p    and other special type    */
+
+h1 {
+  font-family: apparat-light, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 54px;
+  line-height: 66px;
+  letter-spacing: 2px;
+  font-feature-settings: "kern" off;
+  color: #888888;
+}
+
+h2 {
+  font-family: "Apparat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 2px;
+  color: #333333;
+}
+
+h3 {
+  font-family: "Apparat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 2px;
+  color: #8db076;
+}
+
+h4 {
+  font-size: 1.65em;
+  font-weight: 300;
+  margin-block-end: 0.5em;
+  color: #222;
+}
+
+p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 145% */
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  background-color: #f8f4f4;
+}
+
+/* Top bar   */
+
+#top-bar {
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+  width: 100%;
+  height: 105px;
+  margin: 0;
+  padding: 0 11%;
+  background: rgb(251, 251, 250);
+  box-shadow: 0px 4px 7px 5px rgba(117, 117, 117, 0.04);
+}
+
+.logo {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 2px;
+  top: 0px;
+}
+
+.name {
+  position: relative;
+  width: 330px;
+  height: 74px;
+  margin-left: 32px;
+  margin-top: 10px;
+
+  font-family: "Apparat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  display: flex;
+
+  color: #888888;
+}
+
+.icon-box {
+  position: absolute;
+  width: 138px;
+  height: 100%;
+  right: 0px;
+  top: 0px;
+  padding: 0;
+  /* LS orange */
+  background: #eda36b;
+}
+
+.icon-box img {
+  padding: 30px 20px;
+}
+
+/* main content structures */
+
+#main {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 125px auto 0;
+  padding: 0;
+}
+
+section {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 20px 0;
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+}
+
+.about {
+  display: none;
+}
+.closing {
+  height: 200px;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+  margin-left: 11%;
+  padding: 0;
+}
+
+.col-2 {
+  float: right;
+  width: 32%;
+  margin-right: 11%;
+  padding: 0;
+}
+
+/* patterns / background textures   */
+
+.pattern-1 {
+  position: absolute;
+  left: 50%;
+  top: 12%;
+  z-index: -1;
+  width: 1200px;
+  height: 450px;
+  background-image: url("assets/logo-patt-orange-txp-2200.png");
+  background-position: top left;
+  background-size: contain;
+}
+
+.pattern-2 {
+  position: absolute;
+  right: 61%;
+  top: 20%;
+  z-index: -1;
+  width: 800px;
+  height: 385px;
+  background-image: url("assets/logo-patt-orange-txp-2200.png");
+  background-position: top right;
+  background-size: contain;
+}
+
+.pattern-2 {
+  position: absolute;
+  right: 66%;
+  top: 0;
+  z-index: -1;
+  width: 800px;
+  height: 385px;
+  background-image: url("assets/logo-patt-orange-txp-2200.png");
+  background-position: top right;
+  background-size: contain;
+}
+.pattern-3 {
+  position: absolute;
+  right: 33%;
+  top: 0;
+  z-index: -1;
+  width: 800px;
+  height: 385px;
+  background-image: url("assets/logo-patt-orange-txp-2200.png");
+  background-position: top right;
+  background-size: contain;
+}
+
+.tab-box-round-bl {
+  position: relative;
+  float: right;
+  margin: 0;
+  padding: 20px;
+  border-radius: 0 0 68px 0; /*  radius only on the bottom left corner */
+  width: 50%;
+  background-image: url("assets/offwhite-texture.png");
+}
+
+.tab-box-round-bl-full {
+  position: relative;
+  float: right;
+  margin: 0;
+  padding: 20px;
+  border-radius: 0 0 68px 0; /*  radius only on the bottom left corner */
+  width: 100%;
+  background-image: url("assets/offwhite-texture.png");
+}
+
+.tab-box-round-tr {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 20px;
+  border-radius: 0 68px 0 0;
+  width: 95%;
+  background-image: url("assets/offwhite-texture.png") cover;
+}
+
+/* photos  */
+
+.photo-1 {
+  /* hand papers  */
+  box-sizing: border-box;
+  width: 100%;
+  height: 230px;
+}
+
+.photo-2 {
+  /* hand-water  */
+  box-sizing: border-box;
+  width: 100%;
+  height: 250px;
+}
+
+.photo-3 {
+  /* hand w map */
+  box-sizing: border-box;
+  width: 100%;
+  height: 380px;
+}
+
+.photo-1 img,
+.photo-2 img,
+.photo-3 img {
+  width: 100%;
+  border: 8px solid #f8f4f4;
+}
+
+/* quote  */
+
+.quote-box {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+}
+.left-quote-mark {
+  position: absolute;
+  width: 90px;
+  left: 0;
+  top: 0;
+  font-size: 110px;
+  color: #eda36b;
+}
+
+.quote {
+  float: left;
+  width: 90%;
+  font-family: apparat-light, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 44px; /* or 137% */
+  /* LS orange */
+  color: #eda36b;
+}
+.attribution {
+  float: left;
+  font-family: "Apparat";
+  font-size: 22px;
+  color: #eda36b;
+}
+.box-sep {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 15px 0;
+  border-radius: 2px;
+  fill: var(--LS-orange-txp, rgba(237, 163, 107, 0.1));
+}
+
+/* button   */
+
+.button {
+  background-color: #8db076;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button:active {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow grows slightly on click */
+}
+
+.service-box {
+  display: none;
+  background-image: url(assets/green-texture.png);
+}
+
+.social {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.social-box {
+  display: block;
+  border: 1px #888888;
+  width: auto;
+  height: 200px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 8em;
+  bottom: 0;
+  margin: 0;
+  padding: 0 11%;
+  background: #fff;
+}
