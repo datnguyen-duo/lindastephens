@@ -758,6 +758,11 @@ footer {
 }
 footer h4 {
   margin: 0 1rem 0 0;
+  font-size: 17px;
+  font-weight: 400;
+}
+footer p {
+  font-size: 200;
 }
 
 /*# sourceMappingURL=style.css.map */
