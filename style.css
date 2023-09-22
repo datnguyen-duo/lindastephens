@@ -506,6 +506,11 @@ section {
 .closing {
   padding: 2rem 11%;
 }
+@media screen and (max-width: 768px) {
+  .closing {
+    padding: 2rem 1rem;
+  }
+}
 
 .col-1 {
   float: left;
@@ -741,6 +746,11 @@ footer {
   padding: 2rem 11%;
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    padding: 2rem 1rem;
+  }
 }
 footer h4 {
   margin: 0 1rem 0 0;
