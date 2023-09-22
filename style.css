@@ -138,8 +138,6 @@ a:hover {
 }
 
 .logo {
-  width: 105px;
-  height: 105px;
   left: 2px;
   top: 0px;
 }
@@ -265,6 +263,11 @@ section {
 #sec__002 > .col-1 {
   margin-top: 4rem;
 }
+@media screen and (max-width: 768px) {
+  #sec__002 > .col-1 {
+    display: none;
+  }
+}
 #sec__002 > .col-2 {
   position: relative;
   margin: 0;
@@ -289,7 +292,7 @@ section {
   right: 0;
   height: 100%;
   z-index: 1;
-  padding: 6rem 0;
+  padding: 4rem 0;
   width: 0;
   overflow: hidden;
   transition: width 0.3s 0.3s ease-in-out;
@@ -301,6 +304,9 @@ section {
 }
 #sec__002 .about__container h3 {
   margin-bottom: 1rem;
+}
+#sec__002 .about__container p:not(:last-child) {
+  margin-bottom: 0.5rem;
 }
 #sec__002 .about__container .close {
   position: absolute;
@@ -379,6 +385,14 @@ section {
   #sec__004 .col-2 {
     display: flex;
     flex-direction: column;
+    padding: 0;
+  }
+  #sec__004 .col-2 .photo-3 {
+    width: 85%;
+  }
+  #sec__004 .service-box__wrapper {
+    width: 85%;
+    margin-left: auto;
   }
 }
 #sec__004 .pattern-1 {
@@ -423,6 +437,7 @@ section {
     position: relative;
     transform: translate(0, 0);
     order: -1;
+    height: 300px;
   }
 }
 #sec__004 .col-2 .service-box {
@@ -505,17 +520,27 @@ section {
   background-position: top left;
   background-size: cover;
 }
+@media screen and (max-width: 768px) {
+  .pattern-1 {
+    background-size: contain;
+  }
+}
 
 .pattern-2 {
   position: absolute;
   right: 66%;
   top: 20%;
   z-index: -1;
-  width: 800px;
-  height: 385px;
+  width: 1200px;
+  height: 450px;
   background-image: url("assets/logo-patt-orange-txp-2200.png");
   background-position: top right;
   background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  .pattern-2 {
+    background-size: contain;
+  }
 }
 
 .pattern-3 {
@@ -528,6 +553,11 @@ section {
   background-image: url("assets/logo-patt-orange-txp-2200.png");
   background-position: top right;
   background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  .pattern-3 {
+    background-size: contain;
+  }
 }
 
 .tab-box-round-bl {
