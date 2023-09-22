@@ -137,7 +137,6 @@ a:hover {
   #top-bar {
     padding: 0;
     height: auto;
-    align-items: unset;
   }
 }
 #top-bar .wrapper {
@@ -145,6 +144,11 @@ a:hover {
   margin: 0 auto;
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 768px) {
+  #top-bar .wrapper {
+    align-items: unset;
+  }
 }
 
 .logo {
