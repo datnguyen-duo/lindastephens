@@ -534,7 +534,7 @@ section {
 .pattern-1 {
   position: absolute;
   left: 50%;
-  top: 15%;
+  top: 13.5%;
   z-index: -1;
   width: 1200px;
   height: 450px;
@@ -751,6 +751,10 @@ footer {
   display: flex;
   align-items: center;
 }
+footer p {
+  float:right;
+}
+
 @media screen and (max-width: 768px) {
   footer {
     padding: 2rem 1rem;
