@@ -534,7 +534,7 @@ section {
 .pattern-1 {
   position: absolute;
   left: 50%;
-  top: 16%;
+  top: 16.5%;
   z-index: -1;
   width: 1200px;
   height: 450px;
@@ -751,6 +751,11 @@ footer {
   display: flex;
   align-items: center;
 }
+footer h4 {
+  margin: 0 3rem 0 0;
+  font-size: 18px;
+  font-weight: 400;
+}
 footer p {
   text-align:right;
 }
@@ -761,9 +766,8 @@ footer p {
   }
 }
 footer h4 {
-  margin: 0 1rem 0 0;
+  margin: 0 2rem 0 0;
   font-size: 17px;
-  font-weight: 400;
 }
 footer p {
   font-weight: 200;
