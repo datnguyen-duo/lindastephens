@@ -47,12 +47,14 @@ li {
 }
 
 li.extra {
-  font-size: 19px;
+  font-size: 18px;
+  line-height: 30px;
   letter-spacing:1px;
+  text-align:left;
   transition: transform 0.2s ease-in-out;
 }
 li.extra:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   color: #8db076;
 }
 
@@ -129,8 +131,7 @@ a {
 }
 
 a:hover {
-  transform: scale(1.1);
-  background-color: #f4f4f4;
+  transform: scale(1.05);
 }
 
 
