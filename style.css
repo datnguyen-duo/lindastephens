@@ -127,6 +127,9 @@ p {
   font-weight: 300;
   color: #111;
 }
+.white {
+  color:#fff;
+}
 
 a {
   text-decoration: none;
@@ -316,7 +319,7 @@ section {
   width: 50%;
 }
 #sec__002 > .col-2 h2, #sec__002 > .col-2 button {
-  margin: 2rem 0 0rem;
+  margin: 2rem 0 1.5rem;
 }
 #sec__002 > .col-2 button {
   outline: none;
@@ -354,6 +357,8 @@ section {
 }
 #sec__002 .about__container p {
   color: #fff;
+  font-weight:400;
+  font-size:18px;
 }
 #sec__002 .about__container p:not(:last-child) {
   margin-bottom: 0.6rem;
@@ -652,7 +657,7 @@ section {
 .tab-box-round-tr {
   position: relative;
   float: left;
-  margin: 0 0 0 30px;
+  margin: 0 0 0 35px;
   padding: 20px 15px;
   border-radius: 0 68px 0 0;
   width: 95%;
