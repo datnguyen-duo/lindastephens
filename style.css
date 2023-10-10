@@ -399,6 +399,10 @@ section {
   #sec__002 > .col-1 {
     margin-bottom: 4rem;
   }
+  #sec__002 .about__container {
+  height:90%;
+  padding: 3rem 0;
+}
   #sec__002 .about__container .col-1,
   #sec__002 .about__container .col-2 {
     width: 100%;
