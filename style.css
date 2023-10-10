@@ -54,7 +54,7 @@ li.extra {
   transition: transform 0.2s ease-in-out;
 }
 li.extra:hover {
-  transform: rotate(0deg) translateX(10px);
+  transform: rotate(0deg) translateX(7px);
   color: #8db076;
 }
 li.bull {
@@ -476,6 +476,7 @@ section {
 }
 #sec__004 .col-1 ul li.active {
   font-weight:500;
+  color: #8db076;
 }
 #sec__004 .col-2 {
   position: relative;
