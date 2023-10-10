@@ -54,7 +54,7 @@ li.extra {
   transition: transform 0.2s ease-in-out;
 }
 li.extra:hover {
-  transform: scale(1.05);
+  transform: rotate(0deg) translateX(10px);
   color: #8db076;
 }
 
@@ -131,7 +131,7 @@ a {
 }
 
 a:hover {
-  transform: scale(1.05);
+  font-size: 105%;
 }
 
 
@@ -317,7 +317,7 @@ section {
 #sec__002 > .col-2 button {
   outline: none;
   border: none;
-  background: #8db076;
+  background: #eda36b;
   color: #fff;
   cursor: pointer;
   padding: 0.5rem 2rem;
@@ -333,6 +333,7 @@ section {
   width: 0;
   overflow: hidden;
   transition: width 0.3s 0.3s ease-in-out;
+  background-color: #eda36b;
 }
 #sec__002 .about__container .overflow {
   overflow-y: auto;
