@@ -24,7 +24,7 @@ body {
   height: 100%;
   width: 100vw;
   max-width: 100% !important;
-  /* background-color:#888; TO TEST STAGING*/
+ background-color:#888;  /* TO TEST STAGING*/
 }
 
 main {
