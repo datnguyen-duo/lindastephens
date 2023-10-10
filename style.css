@@ -57,6 +57,10 @@ li.extra:hover {
   transform: rotate(0deg) translateX(10px);
   color: #8db076;
 }
+li.bull {
+  list-style: disc;
+  color: #fff;
+}
 
 img {
   max-width: 100%;
@@ -74,7 +78,7 @@ h1 {
   font-weight: 200;
   font-size: 52px;
   line-height: 64px;
-  margin-block-end: 18px;
+  margin-block-end: 20px;
   letter-spacing: 2px;
   font-feature-settings: "kern" off;
   color: #888888;
@@ -312,7 +316,7 @@ section {
   width: 50%;
 }
 #sec__002 > .col-2 h2, #sec__002 > .col-2 button {
-  margin: 2rem 0;
+  margin: 2rem 0 0px;
 }
 #sec__002 > .col-2 button {
   outline: none;
@@ -337,6 +341,7 @@ section {
 }
 #sec__002 .about__container .overflow {
   overflow-y: auto;
+  border-radius: 0 0 0 68px;
 }
 #sec__002 .about__container .col-1,
 #sec__002 .about__container .col-2 {
@@ -492,7 +497,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2.1rem;
+  padding: 2.2rem 2.0rem;
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
   height: 100%;
@@ -581,7 +586,7 @@ section {
 
 .pattern-2 {
   position: absolute;
-  right: 66%;
+  right: 65%;
   top: 20%;
   z-index: -1;
   width: 1200px;
@@ -635,15 +640,15 @@ section {
   /*  radius only on the bottom left corner */
   width: 100%;
   height: 100%;
-  background-image: url("assets/offwhite-texture.png");
+  background-image: none;
   z-index: -1;
 }
 
 .tab-box-round-tr {
   position: relative;
   float: left;
-  margin: 0 0 0 25px;
-  padding: 20px;
+  margin: 0 0 0 30px;
+  padding: 20px 15px;
   border-radius: 0 68px 0 0;
   width: 95%;
   background-image: url("assets/offwhite-texture.png");
