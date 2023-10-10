@@ -24,7 +24,7 @@ body {
   height: 100%;
   width: 100vw;
   max-width: 100% !important;
- background-color:#888;  /* TO TEST STAGING*/
+  /* background-color:#888;  TO TEST STAGING*/
 }
 
 main {
@@ -131,7 +131,7 @@ p {
 a {
   text-decoration: none;
   color: #333333;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.25s ease-in-out;
 }
 
 a:hover {
@@ -338,10 +338,11 @@ section {
   overflow: hidden;
   transition: width 0.3s 0.3s ease-in-out;
   background-color: #eda36b;
+  border-radius: 0 0 0 68px;
 }
 #sec__002 .about__container .overflow {
   overflow-y: auto;
-  border-radius: 0 0 0 68px;
+  
 }
 #sec__002 .about__container .col-1,
 #sec__002 .about__container .col-2 {
@@ -472,6 +473,9 @@ section {
 }
 #sec__004 .col-1 ul li.active::after {
   opacity: 1;
+}
+#sec__004 .col-1 ul li.active {
+  font-weight:500;
 }
 #sec__004 .col-2 {
   position: relative;
@@ -798,6 +802,10 @@ footer p {
 }
 footer a {
   margin-left: 10px;
+}
+footer a:hover {
+  font-size: 100%;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
