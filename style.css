@@ -357,8 +357,7 @@ section {
 }
 #sec__002 .about__container p {
   color: #fff;
-  font-weight:400;
-  font-size:18px;
+  font-size:17px;
 }
 #sec__002 .about__container p:not(:last-child) {
   margin-bottom: 0.6rem;
