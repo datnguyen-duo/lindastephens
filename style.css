@@ -542,7 +542,7 @@ section {
 .pattern-1 {
   position: absolute;
   left: 50%;
-  top: 13.5%;
+  top: 16.5%;
   z-index: -1;
   width: 1200px;
   height: 450px;
@@ -575,10 +575,10 @@ section {
 
 .pattern-3 {
   position: absolute;
-  left: 0;
+  left: -40%;
   top: -5%;
   z-index: -1;
-  width: 800px;
+  width: 1200px;
   height: 385px;
   background-image: url("assets/logo-patt-orange-txp-2200.png");
   background-position: top right;
@@ -759,8 +759,13 @@ footer {
   display: flex;
   align-items: center;
 }
+footer h4 {
+  margin: 0 3rem 0 0;
+  font-size: 18px;
+  font-weight: 400;
+}
 footer p {
-  float:right;
+  text-align:right;
 }
 
 @media screen and (max-width: 768px) {
@@ -769,12 +774,11 @@ footer p {
   }
 }
 footer h4 {
-  margin: 0 1rem 0 0;
+  margin: 0 2rem 0 0;
   font-size: 17px;
-  font-weight: 400;
 }
 footer p {
-  font-size: 200;
+  font-weight: 200;
 }
 
 /*# sourceMappingURL=style.css.map */
