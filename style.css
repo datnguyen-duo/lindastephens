@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
 }
-
+ 
 html {
   margin: 0;
   padding: 0;
@@ -239,6 +239,7 @@ a:hover {
   padding: 0;
 }
 
+
 section {
   position: relative;
   display: block;
@@ -267,7 +268,14 @@ section {
     margin-bottom: 4rem;
   }
 }
-
+.tag-2 {
+  width:380px;
+}
+@media screen and (max-width: 768px) {
+.tag-2 {
+  width:225px;
+}
+}
 #sec__002 {
   position: relative;
   display: flex;
@@ -304,7 +312,7 @@ section {
   position: absolute;
   top: 0;
   right: 0;
-  height: 100%;
+  height: 95%;
   z-index: 1;
   padding: 4rem 0;
   width: 0;
