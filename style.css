@@ -316,7 +316,7 @@ section {
   width: 50%;
 }
 #sec__002 > .col-2 h2, #sec__002 > .col-2 button {
-  margin: 2rem 0 0px;
+  margin: 2rem 0 0rem;
 }
 #sec__002 > .col-2 button {
   outline: none;
@@ -793,20 +793,25 @@ footer h4 {
   font-weight: 400;
 }
 footer p {
+  margin-left: 20px;
   text-align:right;
+}
+footer a {
+  margin-left: 10px;
 }
 
 @media screen and (max-width: 768px) {
   footer {
     padding: 2rem 1rem;
   }
-}
+
 footer h4 {
   margin: 0 2rem 0 0;
   font-size: 17px;
 }
 footer p {
   font-weight: 200;
+}
 }
 
 /*# sourceMappingURL=style.css.map */
