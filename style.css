@@ -81,8 +81,8 @@ h3 {
   font-family: "Apparat";
   font-style: normal;
   font-weight: 400;
-  font-size: 26px;
-  line-height: 36px;
+  font-size: 27px;
+  line-height: 39px;
   letter-spacing: 1.5px;
   color: #8db076;
 }
@@ -575,8 +575,8 @@ section {
 
 .pattern-3 {
   position: absolute;
-  left: -40%;
-  top: -5%;
+  left: -38%;
+  top: 0%;
   z-index: -1;
   width: 1200px;
   height: 385px;
@@ -761,7 +761,7 @@ footer {
 }
 footer h4 {
   margin: 0 3rem 0 0;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 400;
 }
 footer p {
