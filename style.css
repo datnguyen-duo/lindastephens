@@ -24,7 +24,7 @@ body {
   height: 100%;
   width: 100vw;
   max-width: 100% !important;
-  background-color:#888; /*TO TEST STAGING*/
+  /* background-color:#888; TO TEST STAGING*/
 }
 
 main {
@@ -44,6 +44,16 @@ li {
   font-style: normal;
   font-weight: 300;
   line-height: 28px;
+}
+
+li.extra {
+  font-size: 19px;
+  letter-spacing:1px;
+  transition: transform 0.2s ease-in-out;
+}
+li.extra:hover {
+  transform: scale(1.1);
+  color: #8db076;
 }
 
 img {
@@ -115,11 +125,14 @@ p {
 a {
   text-decoration: none;
   color: #333333;
+  transition: transform 0.2s ease-in-out;
 }
 
 a:hover {
-  background-color: #f8f4f4;
+  transform: scale(1.1);
+  background-color: #f4f4f4;
 }
+
 
 /* Top bar   */
 #top-bar {
