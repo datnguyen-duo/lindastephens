@@ -514,9 +514,12 @@ section {
 #sec__004 .col-2 .service-box h3,
 #sec__004 .col-2 .service-box p {
   color: #fff;
+}
+#sec__004 .col-2 .service-box p {  
   font-size: 18px;
   letter-spacing: 1px;
 }
+
 #sec__004 .col-2 .service-box:not(:first-child) {
   position: absolute;
   top: 0;
