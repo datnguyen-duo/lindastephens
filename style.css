@@ -643,6 +643,9 @@ section {
 #sec__005--1 .slide-out h1 {
   color: #8db076;
 }
+#sec__005--1 .slide-out p {
+  color: #000;
+}
 #sec__005--1 .slide-out .close::before, #sec__005--1 .slide-out .close::after {
   background-color: #000;
 }
