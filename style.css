@@ -854,6 +854,11 @@ section {
   color: #eda36b;
   position: relative;
 }
+.in-project {
+ font-size: 32px;
+  line-height: 44px;
+color: #eda36b;
+}
 
 .quote::before {
   content: url("/assets/c-quotes.png");
@@ -873,14 +878,14 @@ section {
   margin-top: 1rem;
 }
 
-.box-sep {
+/* NOT USING .box-sep {
   display: block;
   width: 24px;
   height: 24px;
   margin: 15px 0;
   border-radius: 2px;
   fill: var(--LS-orange-txp, rgba(237, 163, 107, 0.1));
-}
+}   */
 
 /* button   */
 .button {
@@ -900,6 +905,7 @@ section {
 
 .button:hover {
   opacity: 0.9;
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .button:active {
