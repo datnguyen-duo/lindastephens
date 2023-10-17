@@ -1,15 +1,21 @@
 document.addEventListener("DOMContentLoaded", function () {
-  document
-    .querySelector("#sec__002 button")
-    .addEventListener("click", function () {
-      document.querySelector(".about__container").classList.add("active");
+  document.querySelectorAll(".has-slideout").forEach((container) => {
+    var button = container.querySelectorAll("button"),
+      close = container.querySelectorAll(".close"),
+      slide = container.querySelectorAll(".slide-out");
+
+    button.forEach((btn, i) => {
+      btn.addEventListener("click", function () {
+        slide[i].classList.add("active");
+      });
     });
 
-  document
-    .querySelector("#sec__002 .close")
-    .addEventListener("click", function () {
-      document.querySelector(".about__container").classList.remove("active");
+    close.forEach((btn, i) => {
+      btn.addEventListener("click", function () {
+        slide[i].classList.remove("active");
+      });
     });
+  });
 
   var serviceToggles = document.querySelectorAll("#sec__004 ul li"),
     serviceBox = document.querySelectorAll("#sec__004 .service-box");
