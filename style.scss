@@ -581,6 +581,21 @@ section {
       }
     }
   }
+
+  .slide-out {
+    background: #f6f7f2;
+    color: #000;
+
+    h1 {
+      color: #8db076;
+    }
+    .close {
+      &::before,
+      &::after {
+        background-color: #000;
+      }
+    }
+  }
 }
 
 #sec__006 {

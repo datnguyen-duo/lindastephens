@@ -636,6 +636,16 @@ section {
   font-size: 30px;
   line-height: 42px;
 }
+#sec__005--1 .slide-out {
+  background: #f6f7f2;
+  color: #000;
+}
+#sec__005--1 .slide-out h1 {
+  color: #8db076;
+}
+#sec__005--1 .slide-out .close::before, #sec__005--1 .slide-out .close::after {
+  background-color: #000;
+}
 
 #sec__006 {
   padding-top: 12rem;
