@@ -288,7 +288,7 @@ section {
 }
 
 #sec__001 {
-  padding: 6rem 0 12rem;
+  padding: 6rem 0 11rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -601,13 +601,14 @@ section {
 
 #sec__005--1 {
   display: flex;
-  min-height:560px;
+/*  min-height:560px; */
   flex-direction: column;
   padding: 0 2rem;
 }
 #sec__005--1 h1 {
-  color: #8db076;
+ /*  color: #8db076; may go bk  */
 }
+
 #sec__005--1 ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -661,6 +662,7 @@ section {
 #sec__006 h3 {
   padding-left: 11%;
   margin-bottom: 1rem;
+  color: #444;
 }
 
 #sec__006 .tab-box-round-tr {
@@ -902,13 +904,14 @@ color: #eda36b;
 .button {
   background-color: #8db076;
   border: none;
-  border-radius: 15px;
-  padding: 20px;
+  border-radius: 14px;
+  padding: 16px;
   color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 13px;
+  letter-spacing:2px;
   cursor: pointer;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   transition: opacity 0.3s, box-shadow 0.3s;
@@ -939,8 +942,8 @@ box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 
 footer {
   display: flex;
-  margin: 2em 3% 0 3%;
-  padding: 4rem 11% 2em;
+  margin: 3em 3% 0 3%;
+  padding: 3rem 11% 2em;
   align-items: center;
   width: 95%;
   background: #8db076;
@@ -967,7 +970,7 @@ footer a {
 
 footer a:hover {
   color: #8db076;
-  background: #d0d5cb;
+  background: #bdc6a0;
 } 
 
 @media screen and (max-width: 768px) {
