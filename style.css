@@ -635,6 +635,7 @@ section {
   border: none;
   color: #fff;
   cursor: pointer;
+  margin:0.2rem auto;
   padding: 0.4rem 1.5rem;
   border-radius: 15px;
   font-family: "Apparat";
@@ -642,8 +643,6 @@ section {
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
-  position: absolute;
-  bottom: 0;
 }
 #sec__005--1 .slide-out {
   background: #f6f7f2;
