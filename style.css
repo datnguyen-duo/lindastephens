@@ -629,6 +629,7 @@ section {
 }
 #sec__005--1 ul li {
   justify-self: center;
+  align-items: center;
 }
 #sec__005--1 ul li button {
   outline: none;
@@ -650,6 +651,9 @@ section {
 }
 #sec__005--1 .slide-out h1 {
   color: #8db076;
+}
+#sec__005--1 .slide-out .active h2 {
+  text-align:left;
 }
 #sec__005--1 .slide-out p {
   color: #000;
