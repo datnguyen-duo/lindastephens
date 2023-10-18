@@ -143,7 +143,8 @@ a {
 
 a:hover {
  /* font-size: 105%; */
-  background: #ffebdc;
+  color:#fff;
+  background: #eda36b;
 }
 
 /* Top bar   */
@@ -964,10 +965,10 @@ footer a {
   color: #fff;
 }
 
-/* footer a:hover {
-  font-size: 100%;
-  text-decoration: underline;
-} */
+footer a:hover {
+  color: #d3d6cd;
+  background: #d0d5cb;
+} 
 
 @media screen and (max-width: 768px) {
   footer {
