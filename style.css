@@ -629,14 +629,13 @@ section {
 }
 #sec__005--1 ul li {
   justify-self: center;
-  align-items: center;
 }
 #sec__005--1 ul li button {
   outline: none;
   border: none;
   color: #fff;
   cursor: pointer;
-  margin: 0.2em 30%;
+  margin: 0.3em 28%;
   padding: 0.4rem 1.5rem;
   border-radius: 15px;
   font-family: "Apparat";
