@@ -381,7 +381,7 @@ section {
   transition: opacity 0.3s 0s ease-in-out;
 }
 
-.has-slideout .slide-out h3 {
+.has-slideout .slide-out h2 {
   margin-bottom: 1rem;
 }
 
@@ -636,7 +636,7 @@ section {
   border: none;
   color: #fff;
   cursor: pointer;
-  margin: 0.2em auto 0.2em;
+  margin: 0.2em 30%;
   padding: 0.4rem 1.5rem;
   border-radius: 15px;
   font-family: "Apparat";
