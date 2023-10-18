@@ -683,12 +683,12 @@ section {
   }
 }
 .closing {
-  padding: 2rem 11%;
+  padding: 4rem 11% 2em;
 }
 
 @media screen and (max-width: 768px) {
   .closing {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .col-1 {
@@ -806,16 +806,23 @@ section {
   box-sizing: border-box;
   width: 100%;
 }
-
 .photo-3 {
+  /* hands w shoe */
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: -40px;
+}
+.photo-4 {
   /* hand w map */
   box-sizing: border-box;
   width: 100%;
+  margin-left:15px;
 }
 
 .photo-1 img,
 .photo-2 img,
-.photo-3 img {
+.photo-3 img,
+.photo-4 img{
   width: 100%;
   border: 8px solid #f8f4f4;
 }
@@ -934,7 +941,7 @@ footer {
   padding: 4rem 11% 2em;
   align-items: center;
   width: 95%;
-  background: #f6f6f2;
+  background: #8db076;
 }
 
 footer h4 {
