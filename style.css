@@ -91,8 +91,8 @@ h2,
   font-family: "Apparat";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 24px;
+  line-height: 36px;
   letter-spacing: 2px;
   color: #444444;
 }
@@ -904,7 +904,7 @@ color: #eda36b;
 .button {
   background-color: #8db076;
   border: none;
-  border-radius: 14px;
+  border-radius: 9px;
   padding: 16px;
   color: white;
   text-align: center;
