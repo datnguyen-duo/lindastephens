@@ -684,7 +684,7 @@ section {
   }
 }
 .closing {
-  padding: 4rem 11% 2em;
+  padding: 7rem 11% 4em;
 }
 
 @media screen and (max-width: 768px) {
@@ -938,7 +938,7 @@ box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 
 footer {
   display: flex;
-  margin: 2em 5% 0 5%;
+  margin: 2em 3% 0 3%;
   padding: 4rem 11% 2em;
   align-items: center;
   width: 95%;
