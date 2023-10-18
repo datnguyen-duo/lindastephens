@@ -91,8 +91,8 @@ h2,
   font-family: "Apparat";
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 42px;
+  font-size: 18px;
+  line-height: 32px;
   letter-spacing: 2px;
   color: #444444;
 }
@@ -612,7 +612,7 @@ section {
 #sec__005--1 ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 0rem 0 7rem;
+  margin: 2rem 0 7rem;
   padding: 0;
   gap: 4rem;
   width: 100%;
