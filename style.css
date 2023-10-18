@@ -598,6 +598,7 @@ section {
 
 #sec__005--1 {
   display: flex;
+  min-height:560px;
   flex-direction: column;
   padding: 0 2rem;
 }
@@ -930,6 +931,8 @@ footer {
   padding: 4rem 11% 2em;
   display: flex;
   align-items: center;
+  width: 100%;
+  background: #f6f6f2;
 }
 
 footer h4 {
@@ -939,12 +942,12 @@ footer h4 {
 }
 
 footer p {
-  margin-left: 20px;
+  margin-left: 30px;
   text-align: right;
 }
 
 footer a {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 footer a:hover {
