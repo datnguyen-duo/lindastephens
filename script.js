@@ -2,11 +2,45 @@ document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll(".has-slideout").forEach((container) => {
     var button = container.querySelectorAll("button"),
       close = container.querySelectorAll(".close"),
-      slide = container.querySelectorAll(".slide-out");
+      slide = container.querySelectorAll(".slide-out"),
+      prev = container.querySelectorAll(".prev"),
+      next = container.querySelectorAll(".next"),
+      x;
 
     button.forEach((btn, i) => {
       btn.addEventListener("click", function () {
         slide[i].classList.add("active");
+        x = i;
+      });
+    });
+
+    prev.forEach((btn) => {
+      btn.addEventListener("click", function () {
+        x--;
+        slide.forEach((slideClass) => {
+          slideClass.classList.remove("active");
+        });
+
+        if (x < 0) {
+          x = slide.length - 1;
+        }
+
+        slide[x].classList.add("active");
+      });
+    });
+
+    next.forEach((btn) => {
+      btn.addEventListener("click", function () {
+        x++;
+        slide.forEach((slideClass) => {
+          slideClass.classList.remove("active");
+        });
+
+        if (x > slide.length - 1) {
+          x = 0;
+        }
+
+        slide[x].classList.add("active");
       });
     });
 
