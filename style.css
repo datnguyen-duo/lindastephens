@@ -142,7 +142,8 @@ a {
 }
 
 a:hover {
-  font-size: 105%;
+ /* font-size: 105%; */
+  background-color:pink;
 }
 
 /* Top bar   */
@@ -569,7 +570,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2.3rem 2.1rem;
+  padding: 2.4rem 2.1rem 1.9em 2.1em;
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
   height: 100%;
@@ -609,7 +610,7 @@ section {
 #sec__005--1 ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 2rem 0 6rem;
+  margin: 0rem 0 7rem;
   padding: 0;
   gap: 4rem;
   width: 100%;
@@ -937,7 +938,7 @@ box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 
 footer {
   display: flex;
-  margin: 2em 0 0 0;
+  margin: 2em 5% 0 5%;
   padding: 4rem 11% 2em;
   align-items: center;
   width: 95%;
@@ -960,6 +961,7 @@ footer p {
 footer a {
   width: 100px;
   margin-left: 20px;
+  color: #fff;
 }
 
 /* footer a:hover {
