@@ -388,6 +388,7 @@ section {
 
 .has-slideout .slide-out h2 {
   margin-bottom: 1rem;
+  text-align: left;
 }
 
 .has-slideout .slide-out p {
@@ -600,7 +601,7 @@ section {
   left: 0;
   bottom: 0;
   transform: translate(-50%, 50%);
-  height: 99%;
+  height: 97%;
   border-radius: 68px 0 0 0;
 }
 
@@ -940,9 +941,9 @@ section {
 }
 
 .in-project {
-  font-size: 32px;
-  line-height: 44px;
-  color: #eda36b;
+  font-size: 18px;
+  line-height: 30px;
+ /* color: #eda36b;  could change? */
 }
 
 .quote::before {
