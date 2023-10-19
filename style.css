@@ -656,9 +656,6 @@ section {
   color: #8db076;
 }
 
-#sec__005--1 h2 {
-  text-align: center;
-}
 
 #sec__005--1 ul {
   display: grid;
@@ -685,6 +682,7 @@ section {
 }
 #sec__005--1 ul li h2 {
   padding-bottom: 0.5rem;
+  text-align: center;
 }
 
 #sec__005--1 ul li button {
