@@ -2,7 +2,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 html {
@@ -327,7 +326,7 @@ section {
   }
 
   #sec__001 .col-1 {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 }
 .tag-2 {
