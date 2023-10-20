@@ -883,10 +883,17 @@ section {
   /* hands w shoe */
   box-sizing: border-box;
   width: 100%;
-  margin-bottom: -40px;
+  margin-top: 30px;
 }
 
 .photo-4 {
+  /* hands wrapping boxes */
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.photo-5 {
   /* hand w map */
   box-sizing: border-box;
   width: 100%;
@@ -896,10 +903,18 @@ section {
 .photo-1 img,
 .photo-2 img,
 .photo-3 img,
-.photo-4 img {
+.photo-4 img 
+.photo-5 img {
   width: 100%;
-  border: 8px solid #f8f4f4;
+  border: 15px solid #f8f4f4;
 }
+
+.photo-up {
+   width: 100%;
+  box-shadow: 2px 4px 15px 5px rgba(110, 110, 110, 0.05);
+}
+/* linda combo */
+
 
 /* quote  */
 .quote-box {
