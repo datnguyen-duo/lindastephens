@@ -418,7 +418,7 @@ section {
 .has-slideout > .col-2 button {
   outline: none;
   border: none;
-  color: #fff;
+  color: #444;
   cursor: pointer;
   padding: 0.5rem 1rem;
   border-radius: 14px;
@@ -435,7 +435,7 @@ section {
   width: 0;
   overflow: hidden;
   transition: width 0.3s 0.3s ease-in-out;
-  background-color: #eda36b;
+  background-color: #8db076;
   border-radius: 3px 3px 3px 68px;
 }
 
