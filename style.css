@@ -18,6 +18,7 @@ body {
   font-weight: 300;
   font-size: 16px;
   font-style: normal;
+  letter-spacing:1px;
   color: #222;
   margin: 0;
   padding: 0;
@@ -93,7 +94,7 @@ h2,
   font-weight: 400;
   font-size: 23px;
   line-height: 36px;
-  letter-spacing: 2px;
+  letter-spacing: 1.75px;
   color: #444444;
 }
 
@@ -104,6 +105,7 @@ h3 {
   font-size: 27px;
   line-height: 39px;
   letter-spacing: 1.5px;
+  margin-block-end: 1.5em;
   color: #8db076;
 }
 
@@ -138,7 +140,7 @@ p {
 }
 
 .strong {
-  font-size: 22px;
+  font-size: 21px;
   line-height: 32px;
   font-weight: 400;
   color: #111;
@@ -409,7 +411,7 @@ section {
   font-size: 17px;
 }
 .has-slideout .slide-out p.strong {
-  font-size: 22px;
+  font-size: 21px;
 }
 
 .has-slideout .slide-out p:not(:last-child) {
@@ -617,8 +619,8 @@ section {
   left: 0;
   bottom: 0;
   transform: translate(-50%, 50%);
-  height: 97%;
-  border-radius: 68px 0 0 0;
+  height: 96%;
+  border-radius: 68px 3px 3px 3px;
 }
 
 @media screen and (max-width: 768px) {
@@ -633,7 +635,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2.3rem 2.1rem 1.9em 2.1em;
+  padding: 2.3rem 2.1rem 1.9em 2.3em;
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
   height: 100%;
@@ -665,7 +667,7 @@ section {
   display: flex;
   /*  min-height:560px; */
   flex-direction: column;
-  padding: 6rem 2rem;
+  padding: 6rem 2rem 2rem 2rem;
 }
 
 #sec__005--1 h1 {
@@ -975,7 +977,7 @@ section {
 
 .in-project {
   font-weight:300;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
  /* color: #eda36b;  could change? */
 }
@@ -1076,7 +1078,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #8db076;
+  color: #eee;
   background: rgba(185, 196, 150, 0.6); 
 }
 
