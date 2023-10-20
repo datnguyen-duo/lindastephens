@@ -208,7 +208,7 @@ a:hover {
   height: 94px;
   margin: 0;
   background: #f6f6f2;
-  box-shadow: 0px 4px 10px 8px rgba(110, 110, 100, 0.08);
+  box-shadow: 0px 4px 11px 7px rgba(110, 110, 100, 0.085);
 }
 
 @media screen and (max-width: 768px) {
@@ -305,7 +305,7 @@ a:hover {
 }
 
 .icon-box a:hover img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .icon-box img {
@@ -419,7 +419,7 @@ section {
   position: absolute;
   top: 0;
   right: 0;
-  height: 95%;
+  height: 100%;  /*testing instead of 95 */
   z-index: 1;
   padding: 5rem 0 4rem;
   width: 0;
