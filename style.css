@@ -116,7 +116,7 @@ h3 {
   color: #8db076;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   h3 {
     font-size: 25px;
     line-height: 37px;
@@ -370,7 +370,7 @@ section {
 }
 @media screen and (max-width: 768px) {
   #sec__002 .col-2 {
-    order: -1;
+    /* order: -1;  trying pics below */
     margin-bottom: 0.5rem;
   }
 }
@@ -601,7 +601,7 @@ section {
   }
 
   .has-slideout .slide-out {
-    height: 90%;
+    height: 91%;
   }
 
   .has-slideout .slide-out .col-1,
@@ -622,6 +622,16 @@ section {
 #sec__004 {
   padding-bottom: 12rem;
 }
+
+
+@media screen and (max-width: 900px) {
+  #sec__004 .service-box__wrapper {
+    width: 90%;
+  }
+}
+
+
+
 
 @media screen and (max-width: 768px) {
   #sec__004 {
@@ -1095,7 +1105,7 @@ section {
     line-height: 38px;
   }
 }
-/*  I think this is useless now   vvv  */
+ 
 .quote::before {
   content: url("/assets/c-quotes.png");
   position: absolute;
@@ -1109,9 +1119,10 @@ section {
 }
 @media screen and (max-width: 768px) {
   .quote::before {
-    right: 0;
+    left: 2px;
+  /*  right: 0;
     margin: auto;
-    transform: translate(0, -100%);
+    transform: translate(0, -100%); */
   }
 }
 
