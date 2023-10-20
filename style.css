@@ -1006,14 +1006,14 @@ section {
  /* color: #eda36b;  could change? */
 }
 
-/* NOT USING .box-sep {
+.separator {
   display: block;
-  width: 24px;
-  height: 24px;
-  margin: 15px 0;
-  border-radius: 2px;
-  fill: var(--LS-orange-txp, rgba(237, 163, 107, 0.1));
-}   */
+  width: 20px;
+  height: 4px;
+  margin: 15px auto;
+  background: #444;
+}   
+
 /* button   */
 .button {
   background-color: #eda36b;
