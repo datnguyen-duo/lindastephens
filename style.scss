@@ -61,7 +61,6 @@ li.extra:hover {
 
 li.bull {
   list-style: disc;
-  color: #fff;
 }
 
 img {
@@ -115,13 +114,13 @@ h3 {
   margin-block-end: 0.6em;
   color: #8db076;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 900px) {
   h3 {
     font-size: 25px;
     line-height: 37px;
   }
 }
-
 h4 {
   font-size: 1.65em;
   font-weight: 300;
@@ -132,19 +131,21 @@ h4 {
 h5 {
   font-family: "Apparat";
   font-weight: 400;
-  font-size: 17px;
-  line-height: 29px;
+  font-size: 18px;
+  line-height: 30px;
   letter-spacing: normal;
-  margin-block-start: 1em;
+  margin-block-start: 2em;
   margin-block-end: 0.3em;
   color: #8db076;
 }
+
 h6 {
-  font-family: "Apparat";
+  font-family: "Helvetica Neue";
+  font-style: normal;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 28px;
-  letter-spacing: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1px;
   color: #666;
 }
 
@@ -185,6 +186,18 @@ p {
 
 .white {
   color: #fff;
+}
+
+.sand {
+  background-image: url("assets/offwhite-texture.png");
+}
+
+.lorange {
+  background: #f0ae7b;
+}
+
+.greenapple {
+  background: #8db076;
 }
 
 a {
@@ -367,15 +380,13 @@ section {
     width: 225px;
   }
 }
-
-#sec__002 {
-  @media screen and (max-width: 768px) {
-    .col-2 {
-      order: -1;
-      margin-bottom: 0.5rem;
-    }
+@media screen and (max-width: 768px) {
+  #sec__002 .col-2 {
+    /* order: -1;  trying pics below */
+    margin-bottom: 0.5rem;
   }
 }
+
 .has-slideout {
   position: relative;
   display: flex;
@@ -415,11 +426,10 @@ section {
     margin: 1.5rem 0 1.3rem;
   }
 }
-
 .has-slideout > .col-2 button {
   outline: none;
   border: none;
-  color: #fff;
+  color: #444;
   cursor: pointer;
   padding: 0.5rem 1rem;
   border-radius: 14px;
@@ -429,15 +439,17 @@ section {
   position: absolute;
   top: 0;
   right: 0;
-  height: 100%; /*testing instead of 95 */
+  height: 100%;
+  /*testing instead of 95 */
   z-index: 1;
   padding: 5rem 0 4rem;
   width: 0;
   overflow: hidden;
   transition: width 0.3s 0.3s ease-in-out;
-  background-color: #eda36b;
+  background-color: #8db076;
   border-radius: 3px 3px 3px 68px;
 }
+
 .has-slideout .slide-out .col-1 {
   margin-left: 6%;
   width: 38%;
@@ -446,7 +458,9 @@ section {
 .has-slideout .slide-out .overflow {
   overflow-y: auto;
   height: 100%;
-  @media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 768px) {
+  .has-slideout .slide-out .overflow {
     display: flex;
     flex-direction: column;
   }
@@ -456,8 +470,10 @@ section {
 .has-slideout .slide-out .col-2 {
   opacity: 0;
   transition: opacity 0.3s 0s ease-in-out;
-
-  @media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 768px) {
+  .has-slideout .slide-out .col-1,
+  .has-slideout .slide-out .col-2 {
     width: 100%;
   }
 }
@@ -468,9 +484,10 @@ section {
 }
 
 .has-slideout .slide-out p {
-  color: #fff;
+  /*  color: #fff; */
   font-size: 17px;
 }
+
 .has-slideout .slide-out p.strong {
   font-size: 21px;
 }
@@ -483,9 +500,17 @@ section {
   position: absolute;
   top: 2rem;
   right: 2rem;
+  z-index: 5;
   height: 42px;
   width: 42px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .has-slideout .slide-out .close {
+    height: 34px;
+    width: 34px;
+  }
 }
 
 .has-slideout .slide-out .close:before,
@@ -513,20 +538,29 @@ section {
 .has-slideout .arrows {
   position: absolute;
   top: 2rem;
-  right: 5rem;
+  right: 2rem;
   display: flex;
 }
+
 .has-slideout .arrows .arrow {
   height: 42px;
   width: 42px;
   cursor: pointer;
   position: relative;
   overflow: hidden;
+}
 
-  &.prev {
-    margin-top: 1px;
+@media screen and (max-width: 768px) {
+  .has-slideout .arrows .arrow {
+    height: 34px;
+    width: 34px;
   }
 }
+
+.has-slideout .arrows .arrow.prev {
+  margin-top: 1px;
+}
+
 .has-slideout .arrows .arrow::before,
 .has-slideout .arrows .arrow::after {
   content: "";
@@ -540,20 +574,25 @@ section {
   margin: auto;
   background-color: #444;
 }
+
 .has-slideout .arrows .arrow::before {
   transform: rotate(45deg) translateY(-1px);
 }
+
 .has-slideout .arrows .arrow::after {
   transform: rotate(-45deg);
 }
+
 .has-slideout .arrows .arrow.prev::before,
 .has-slideout .arrows .arrow.prev::after {
   transform-origin: left;
 }
+
 .has-slideout .arrows .arrow.next::before,
 .has-slideout .arrows .arrow.next::after {
   transform-origin: right;
 }
+
 .has-slideout .arrows .arrow.next::before {
   transform: rotate(45deg) translateY(1px);
 }
@@ -561,7 +600,9 @@ section {
 .has-slideout .slide-out.active {
   width: 95%;
   transition: width 0.3s 0s ease-in-out;
-  @media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 768px) {
+  .has-slideout .slide-out.active {
     width: 100%;
   }
 }
@@ -569,7 +610,6 @@ section {
 .has-slideout .slide-out.active .col-1,
 .has-slideout .slide-out.active .col-2 {
   opacity: 1;
-  // width: 34%;
   transition: opacity 0.3s 0.3s ease-in-out;
 }
 
@@ -589,8 +629,7 @@ section {
   }
 
   .has-slideout .slide-out {
-    height: 90%;
-    // padding: 3rem 0;
+    height: 91%;
   }
 
   .has-slideout .slide-out .col-1,
@@ -610,6 +649,12 @@ section {
 
 #sec__004 {
   padding-bottom: 12rem;
+}
+
+@media screen and (max-width: 900px) {
+  #sec__004 .service-box__wrapper {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -741,6 +786,24 @@ section {
   /*  min-height:560px; */
   flex-direction: column;
   padding: 6rem 2rem 2rem 2rem;
+  .slide-out-wrapper {
+    position: relative;
+
+    .slide-out {
+      position: relative;
+
+      height: 100%;
+      &:first-of-type {
+        width: 100% !important;
+        opacity: 1 !important;
+      }
+      &:not(:first-of-type) {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
 }
 
 #sec__005--1 h1 {
@@ -782,13 +845,13 @@ section {
     line-height: 29px;
   }
 }
-
 #sec__005--1 ul li {
   justify-self: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 #sec__005--1 ul li h2 {
   padding-bottom: 1.5rem;
   text-align: center;
@@ -799,13 +862,13 @@ section {
   border: none;
   color: #fff;
   cursor: pointer;
-  margin: 0.3em 28%;
-  padding: 0.4rem 0.6rem;
-  border-radius: 13px;
+  margin: 0.2em 28%;
+  padding: 0.4rem 0.4rem;
+  border-radius: 12px;
   font-family: "Apparat";
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 31px;
   margin-top: auto;
 }
@@ -839,7 +902,8 @@ section {
 #sec__006 h3 {
   padding-left: 10.5%;
   margin-bottom: 1rem;
-  color: #444;
+  /*color: #444; */
+  color: #fff;
 }
 
 #sec__006 .tab-box-round-tr {
@@ -856,6 +920,7 @@ section {
   #sec__006 {
     padding-top: 6rem;
   }
+
   #sec__006 .tab-box-round-tr h3 {
     padding-left: 0;
   }
@@ -955,7 +1020,8 @@ section {
   /*  radius only on the bottom left corner */
   width: 100%;
   height: 100%;
-  background-image: url("assets/offwhite-texture.png");
+  /*background: #8db076; */
+  /* background-image: url("assets/offwhite-texture.png"); */
   z-index: -1;
 }
 
@@ -979,7 +1045,9 @@ section {
   padding: 20px 15px;
   border-radius: 3px 68px 3px 3px;
   width: 95%;
-  background-image: url("assets/offwhite-texture.png");
+  color: #fff;
+  background: #8db076;
+  /* background-image: url("assets/offwhite-texture.png"); */
 }
 
 @media screen and (max-width: 768px) {
@@ -988,7 +1056,6 @@ section {
     padding: 20px 15px 20px 28px;
   }
 }
-
 /* photos  */
 .photo-1 {
   /* hand papers  */
@@ -1035,8 +1102,8 @@ section {
 .photo-up {
   width: 105%;
 }
-/* linda combo */
 
+/* linda combo */
 @media screen and (max-width: 768px) {
   .photo-5 {
     margin-left: 0px;
@@ -1046,10 +1113,9 @@ section {
     z-index: -2;
   }
 }
-
 .sample {
   width: 100%;
-  margin: 2rem 0 15px;
+  margin: 3rem 0 15px;
 }
 
 /* quote  */
@@ -1079,21 +1145,12 @@ section {
   .quote-box {
     padding: 4rem 2rem;
   }
+
   .quote {
     font-size: 26px;
     line-height: 38px;
   }
 }
-
-/*  I think this is useless now   vvv  */
-// .left-quote-mark {
-//   position: absolute;
-//   width: 90px;
-//   left: 0;
-//   top: 0;
-//   font-size: 110px;
-//   color: #eda36b;
-// }
 
 .quote::before {
   content: url("/assets/c-quotes.png");
@@ -1105,11 +1162,14 @@ section {
   font-weight: 100;
   transform: translate(-110%, -25%);
   width: 40px;
-
-  @media screen and (max-width: 768px) {
-    right: 0;
+}
+@media screen and (max-width: 768px) {
+  .quote::before {
+    left: 30px;
+    top: -28px;
+    /*  right: 0;
     margin: auto;
-    transform: translate(0, -100%);
+    transform: translate(0, -100%); */
   }
 }
 
@@ -1121,8 +1181,9 @@ section {
 }
 
 .in-project {
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
   /* color: #eda36b;  could change? */
 }
 
@@ -1136,24 +1197,26 @@ section {
 
 /* button   */
 .button {
-  background-color: #eda36b;
+  /*  background-color: #eda36b; */
+  background-color: white;
   border: none;
   border-radius: 15px;
   padding: 14px;
-  color: white;
+  /*  color: white; */
+  color: #444;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
   letter-spacing: 2px;
   cursor: pointer;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 5px rgba(80, 80, 80, 0.15);
   transition: opacity 0.3s, box-shadow 0.3s;
 }
 
 .button:hover {
   opacity: 0.9;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 8px 8px rgba(80, 80, 80, 0.15);
 }
 
 .button:active {
@@ -1180,27 +1243,31 @@ footer {
   padding: 2.3rem 10.5% 2.3em;
   align-items: center;
   width: 95%;
-  background: #8db076;
-  box-shadow: 0px 4px 5px 4px rgba(110, 110, 110, 0.05);
+  /*  background: #8db076; */
+  background: #f6f6f2;
+  box-shadow: 0px 4px 11px 7px rgba(110, 110, 100, 0.07);
 }
 
 footer h4 {
   margin: 0 3rem 0 0;
   font-size: 19px;
   font-weight: 400;
-  color: #fff;
+  /*color: #fff; */
+  color: #444;
 }
 
 footer p {
   margin-left: 30px;
   text-align: right;
-  color: #fff;
+  /*color: #fff; */
+  color: #444;
 }
 
 footer a {
   width: 100px;
   margin-left: 20px;
-  color: #fff;
+  /*color: #fff; */
+  color: #444;
 }
 
 footer a:hover {
@@ -1227,6 +1294,7 @@ footer a:hover {
     font-weight: 200;
     font-size: 13px;
   }
+
   footer a {
     min-width: 40px;
     margin-left: 5px;

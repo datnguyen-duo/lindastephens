@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
       slide = container.querySelectorAll(".slide-out"),
       prev = container.querySelectorAll(".prev"),
       next = container.querySelectorAll(".next"),
-      x;
+      x = 0;
 
     button.forEach((btn, i) => {
       btn.addEventListener("click", function () {
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (x < 0) {
           x = slide.length - 1;
         }
-
+        console.log(x);
         slide[x].classList.add("active");
       });
     });
