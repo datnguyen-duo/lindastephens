@@ -141,11 +141,12 @@ h5 {
 }
 
 h6 {
-  font-family: "Apparat";
+  font-family: "Helvetica Neue";
+  font-style: normal;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 28px;
-  letter-spacing: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1px;
   color: #666;
 }
 
