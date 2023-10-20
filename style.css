@@ -1186,13 +1186,13 @@ section {
   font-size: 18px;
   letter-spacing: 2px;
   cursor: pointer;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
   transition: opacity 0.3s, box-shadow 0.3s;
 }
 
 .button:hover {
   opacity: 0.9;
-  box-shadow: 4px 4px 9px 9px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 8px 8px rgba(0, 0, 0, 0.15);
 }
 
 .button:active {
@@ -1228,19 +1228,22 @@ footer h4 {
   margin: 0 3rem 0 0;
   font-size: 19px;
   font-weight: 400;
-  color: #fff;
+  /*color: #fff; */
+  color: #444; 
 }
 
 footer p {
   margin-left: 30px;
   text-align: right;
-  color: #fff;
+    /*color: #fff; */
+  color: #444; 
 }
 
 footer a {
   width: 100px;
   margin-left: 20px;
-  color: #fff;
+    /*color: #fff; */
+  color: #444; 
 }
 
 footer a:hover {
