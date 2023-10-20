@@ -126,7 +126,7 @@ h5 {
 h6 {
   font-family: "Apparat";
   font-weight: 300;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 27px;
   color: #444;
 }
@@ -1002,7 +1002,7 @@ section {
 .in-project {
   font-weight:300;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 26px;
  /* color: #eda36b;  could change? */
 }
 
