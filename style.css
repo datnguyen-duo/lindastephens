@@ -875,7 +875,8 @@ section {
 #sec__006 h3 {
   padding-left: 10.5%;
   margin-bottom: 1rem;
-  color: #444;
+  /*color: #444; */
+  color: #fff;
 }
 
 #sec__006 .tab-box-round-tr {
@@ -1186,13 +1187,13 @@ section {
   font-size: 18px;
   letter-spacing: 2px;
   cursor: pointer;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 2px 5px rgba(80, 80, 80, 0.15);
   transition: opacity 0.3s, box-shadow 0.3s;
 }
 
 .button:hover {
   opacity: 0.9;
-  box-shadow: 0px 2px 8px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 8px 8px rgba(80, 80, 80, 0.15);
 }
 
 .button:active {
