@@ -1120,7 +1120,8 @@ section {
 }
 @media screen and (max-width: 768px) {
   .quote::before {
-    left: 2px;
+    left: 30px;
+    top: -28px;
   /*  right: 0;
     margin: auto;
     transform: translate(0, -100%); */
