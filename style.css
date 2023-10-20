@@ -120,7 +120,8 @@ h3 {
   font-size: 25px;
   line-height: 37px;
 }
-  
+}
+
 h4 {
   font-size: 1.65em;
   font-weight: 300;
@@ -153,6 +154,22 @@ p {
   color: #333333;
 }
 
+.name {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+  letter-spacing: 1px;
+  display:inline;
+}
+
+.intro {
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 38px;
+  letter-spacing: 1px;
+  display:inline;
+}
+  
 .strong {
   font-size: 21px;
   line-height: 32px;
@@ -164,6 +181,8 @@ p {
   color: #fff;
 }
 
+
+  
 a {
   text-decoration: none;
   color: #333333;
@@ -186,7 +205,7 @@ a:hover {
   height: 94px;
   margin: 0;
   background: #f6f6f2;
-  box-shadow: 0px 4px 9px 8px rgba(110, 110, 110, 0.08);
+  box-shadow: 0px 4px 10px 8px rgba(110, 110, 100, 0.08);
 }
 
 @media screen and (max-width: 768px) {
@@ -1074,7 +1093,7 @@ section {
   width: 20px;
   height: 4px;
   margin: 15px auto;
-  background: #444;
+  background: #b1afac;
 }   
 
 /* button   */
