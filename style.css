@@ -784,7 +784,7 @@ section {
 }
 
 #sec__006 h3 {
-  padding-left: 11%;
+  padding-left: 10.5%;
   margin-bottom: 1rem;
   color: #444;
 }
@@ -814,7 +814,7 @@ section {
   }
 }
 .closing {
-  padding: 7rem 11% 4em;
+  padding: 7rem 10.5% 4em;
 }
 
 @media screen and (max-width: 768px) {
@@ -1002,7 +1002,7 @@ section {
   width: 90%;
   display: flex;
   flex-direction: column;
-  padding: 4rem 11%;
+  padding: 4rem 10.5%;
   width: 100%;
   margin: 0 auto;
 }
@@ -1115,7 +1115,7 @@ section {
 footer {
   display: flex;
   margin: 3em 3% 0 3%;
-  padding: 2.3rem 11% 2.3em;
+  padding: 2.3rem 10.5% 2.3em;
   align-items: center;
   width: 95%;
   background: #8db076;
