@@ -114,6 +114,14 @@ h4 {
   color: #222;
 }
 
+h5 {
+  font-family: "Apparat";
+  font-style: normal;
+  font-size: 19px;
+  line-height: 29px;
+  color: #8db076;
+}
+
 p {
   font-family: "Helvetica Neue";
   font-style: normal;
@@ -659,7 +667,6 @@ section {
   color: #8db076;
 }
 
-
 #sec__005--1 ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -667,8 +674,14 @@ section {
   padding: 15px 0;
   gap: 4rem;
   width: 100%;
-  background: #efefef;
+  background-image: url(assets/offwhite-texture.png);
 }
+
+#sec__005--1 ul.inner {
+  display: block;
+  background-image: none;
+}
+
 
 @media screen and (max-width: 768px) {
   #sec__005--1 ul {
