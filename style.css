@@ -365,6 +365,13 @@ section {
   margin: 2.5rem 0 1.5rem;
 }
 
+@media screen and (max-width: 768px) {
+.has-slideout > .col-2 h2,
+.has-slideout > .col-2 button {
+  margin: 1.5rem 0 1.3rem;
+}
+}
+
 .has-slideout > .col-2 button {
   outline: none;
   border: none;
@@ -556,7 +563,7 @@ section {
   }
 
   #sec__004 .col-1 {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 
   #sec__004 .col-2 {
@@ -631,7 +638,7 @@ section {
     position: relative;
     transform: translate(0, 0);
     order: -1;
-    height: 300px;
+    height: 305px;
   }
 }
 #sec__004 .col-2 .service-box {
@@ -793,7 +800,7 @@ section {
 
 @media screen and (max-width: 768px) {
   .closing {
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 1rem 30px;
   }
 }
 .col-1 {
@@ -826,7 +833,8 @@ section {
 @media screen and (max-width: 768px) {
   .pattern-1 {
     background-size: contain;
-    left:55%
+    left:55%;
+    top: 18%;
     width: 1500px;
   }
 }
@@ -957,6 +965,14 @@ section {
 }
 /* linda combo */
 
+@media screen and (max-width: 768px) {
+.photo-5 {
+  margin-left: 0px;
+  position:absolute;
+  top:205px;
+}
+}
+
 
 /* quote  */
 .quote-box {
@@ -970,19 +986,6 @@ section {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
-  .quote-box {
-    padding: 4rem 1rem 4rem 3rem;
-  }
-}
-.left-quote-mark {
-  position: absolute;
-  width: 90px;
-  left: 0;
-  top: 0;
-  font-size: 110px;
-  color: #eda36b;
-}
 
 .quote {
   font-family: apparat-light, sans-serif;
@@ -995,6 +998,25 @@ section {
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  .quote-box {
+    padding: 4rem 1.2rem 4rem 3rem;
+  }
+  .quote {
+  font-size: 26px;
+  line-height: 38px;
+}
+}
+
+/*  I think this is useless now   vvv  */
+.left-quote-mark {
+  position: absolute;
+  width: 90px;
+  left: 0;
+  top: 0;
+  font-size: 110px;
+  color: #eda36b;
+}
 
 .quote::before {
   content: url("/assets/c-quotes.png");
@@ -1113,12 +1135,17 @@ footer a:hover {
   footer h4 {
     margin: 0 2rem 0 0;
     font-size: 15px;
+    line-height: 23px;
   }
 
   footer p {
     font-weight: 200;
     font-size: 13px;
   }
+  footer a {
+  min-width: 40px;
+  margin-left: 6px;
+}
 }
 
 /*# sourceMappingURL=style.css.map */
