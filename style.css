@@ -116,10 +116,15 @@ h4 {
 
 h5 {
   font-family: "Apparat";
-  font-style: normal;
   font-size: 19px;
   line-height: 29px;
   color: #8db076;
+}
+h6 {
+  font-family: "Apparat";
+  font-size: 17px;
+  line-height: 27px;
+  color: #444;
 }
 
 p {
