@@ -188,6 +188,13 @@ p {
   color: #fff;
 }
 
+.sand {
+   background-image: url("assets/offwhite-texture.png");
+}
+
+.lorange {
+  color: f0ae7b;
+}
 a {
   text-decoration: none;
   color: #333333;
@@ -1024,9 +1031,7 @@ section {
   /* background-image: url("assets/offwhite-texture.png"); */
 }
 
-.sand {
-   background-image: url("assets/offwhite-texture.png");
-}
+
 
 @media screen and (max-width: 768px) {
   .tab-box-round-tr {
