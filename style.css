@@ -696,6 +696,10 @@ section {
 
 
 @media screen and (max-width: 768px) {
+  #sec__005--1 {
+    padding: 3rem 2rem 2rem 2rem;
+  }
+  
   #sec__005--1 ul {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -822,6 +826,8 @@ section {
 @media screen and (max-width: 768px) {
   .pattern-1 {
     background-size: contain;
+    left:55%
+    width: 1500px;
   }
 }
 .pattern-2 {
@@ -856,6 +862,8 @@ section {
 @media screen and (max-width: 768px) {
   .pattern-3 {
     background-size: contain;
+    right:15%;
+    width: 1500px;
   }
 }
 .tab-box-round-bl {
@@ -892,6 +900,13 @@ section {
   border-radius:  3px 68px  3px 3px;
   width: 95%;
   background-image: url("assets/offwhite-texture.png");
+}
+
+@media screen and (max-width: 768px) {
+.tab-box-round-tr {
+    margin: -20px 0 0 30px;
+    padding: 20px 15px 20px 25px;
+}
 }
 
 /* photos  */
@@ -1090,18 +1105,22 @@ footer a:hover {
 
 @media screen and (max-width: 768px) {
   footer {
-    padding: 2rem 1rem;
+    margin: 2em 0 0 0;
+  padding: 2rem 1rem;
+  width:100%;
   }
 
   footer h4 {
     margin: 0 2rem 0 0;
-    font-size: 17px;
+    font-size: 15px;
   }
 
   footer p {
     font-weight: 200;
+    font-size: 13px;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
