@@ -494,6 +494,13 @@ section {
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+.has-slideout .slide-out .close {
+  height: 34px;
+  width: 34px;
+  }
+}
+
 .has-slideout .slide-out .close:before,
 .has-slideout .slide-out .close::after {
   content: "";
@@ -530,6 +537,14 @@ section {
   position: relative;
   overflow: hidden;
 }
+
+@media screen and (max-width: 768px) {
+.has-slideout .arrows .arrow {
+  height: 34px;
+  width: 34px;
+  }
+}
+
 .has-slideout .arrows .arrow.prev {
   margin-top: 1px;
 }
