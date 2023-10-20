@@ -980,12 +980,6 @@ section {
   position: relative;
 }
 
-.in-project {
-  font-weight:300;
-  font-size: 18px;
-  line-height: 24px;
- /* color: #eda36b;  could change? */
-}
 
 .quote::before {
   content: url("/assets/c-quotes.png");
@@ -1003,6 +997,13 @@ section {
   font-size: 22px;
   color: #eda36b;
   margin-top: 1rem;
+}
+
+.in-project {
+  font-weight:300;
+  font-size: 18px;
+  line-height: 24px;
+ /* color: #eda36b;  could change? */
 }
 
 /* NOT USING .box-sep {
