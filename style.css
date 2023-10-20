@@ -87,6 +87,13 @@ h1 {
   color: #888888;
 }
 
+@media screen and (max-width: 768px) {
+h1 {
+  font-size: 43px;
+  line-height: 55px;
+  margin-block-end: 14px;
+}
+  
 h2,
 .has-slideout > .col-2 button {
   font-family: "Apparat";
@@ -553,6 +560,7 @@ section {
 @media screen and (max-width: 768px) {
   #sec__004 {
     padding: 2rem 0 0;
+    min-height: 1160px;
   }
 
   #sec__004 .col-1,
@@ -703,17 +711,25 @@ section {
 
 
 @media screen and (max-width: 768px) {
-  #sec__005--1 {
+#sec__005--1 {
     padding: 3rem 2rem 2rem 2rem;
   }
   
-  #sec__005--1 ul {
+#sec__005--1 ul {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    margin-top: 2rem;
+    margin: 1rem 0 3rem;
     position: relative;
   }
+  
+#sec__005--1 ul li button {
+  margin: 0.7em 0.3em 1em;
+  padding: 0.3rem 0.5rem;
+  font-size: 17px;
+  line-height: 29px;
 }
+}
+  
 #sec__005--1 ul li {
   justify-self: center;
   display: flex;
@@ -731,7 +747,7 @@ section {
   color: #fff;
   cursor: pointer;
   margin: 0.3em 28%;
-  padding: 0.4rem 0.9rem;
+  padding: 0.4rem 0.6rem;
   border-radius: 13px;
   font-family: "Apparat";
   font-style: normal;
@@ -784,6 +800,9 @@ section {
 }
 
 @media screen and (max-width: 768px) {
+  #sec__006 {
+  padding-top: 6rem;
+}
   #sec__006 .tab-box-round-tr h3 {
     padding-left: 0;
   }
@@ -834,8 +853,8 @@ section {
   .pattern-1 {
     background-size: contain;
     left:55%;
-    top: 18%;
-    width: 1500px;
+    top: 26%;
+    width: 1600px;
   }
 }
 .pattern-2 {
@@ -870,8 +889,8 @@ section {
 @media screen and (max-width: 768px) {
   .pattern-3 {
     background-size: contain;
-    right:15%;
-    width: 1500px;
+    right:0;
+    width: 1600px;
   }
 }
 .tab-box-round-bl {
@@ -970,6 +989,7 @@ section {
   margin-left: 0px;
   position:absolute;
   top:205px;
+  z-index: -2;
 }
 }
 
@@ -1139,6 +1159,7 @@ footer a:hover {
   }
 
   footer p {
+    margin-left: 5px;
     font-weight: 200;
     font-size: 13px;
   }
