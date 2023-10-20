@@ -664,9 +664,10 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 2rem 0 7rem;
-  padding: 0;
+  padding: 15px 0;
   gap: 4rem;
   width: 100%;
+  background: #efefef;
 }
 
 @media screen and (max-width: 768px) {
@@ -955,8 +956,8 @@ section {
 }
 
 .in-project {
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 15px;
+  line-height: 23px;
  /* color: #eda36b;  could change? */
 }
 
