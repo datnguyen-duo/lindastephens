@@ -473,7 +473,7 @@ section {
 }
 
 .has-slideout .slide-out p {
-  color: #fff;
+ /*  color: #fff; */
   font-size: 17px;
 }
 
