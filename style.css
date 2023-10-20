@@ -987,8 +987,9 @@ section {
 @media screen and (max-width: 768px) {
 .photo-5 {
   margin-left: 0px;
+  margin-right:30px;
   position:absolute;
-  top:220px;
+  top:230px;
   z-index: -2;
 }
 }
@@ -1159,13 +1160,13 @@ footer a:hover {
   }
 
   footer p {
-    margin-left: 5px;
+    margin-left: 0px;
     font-weight: 200;
     font-size: 13px;
   }
   footer a {
   min-width: 40px;
-  margin-left: 6px;
+  margin-left: 5px;
 }
 }
 
