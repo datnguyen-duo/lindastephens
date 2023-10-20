@@ -395,6 +395,9 @@ section {
   color: #fff;
   font-size: 17px;
 }
+.has-slideout .slide-out p.strong {
+  font-size: 22px;
+}
 
 .has-slideout .slide-out p:not(:last-child) {
   margin-bottom: 0.6rem;
