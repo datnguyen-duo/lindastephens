@@ -132,17 +132,18 @@ h4 {
 h5 {
   font-family: "Apparat";
   font-weight: 400;
-  font-size: 19px;
+  font-size: 17px;
   line-height: 29px;
   letter-spacing: normal;
+  margin-block-start: 1.0em;
   margin-block-end: 0.3em;
   color: #8db076;
 }
 h6 {
   font-family: "Apparat";
   font-weight: 300;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 16px;
+  line-height: 28px;
   letter-spacing: normal;
   color: #666;
 }
@@ -517,7 +518,7 @@ section {
   height: 2px;
   width: 50%;
   margin: auto;
-  background-color: #000;
+  background-color: #444;
 }
 .has-slideout .arrows .arrow::before {
   transform: rotate(45deg) translateY(-1px);
@@ -805,7 +806,7 @@ section {
 
 #sec__005--1 .slide-out .close::before,
 #sec__005--1 .slide-out .close::after {
-  background-color: #000;
+  background-color: #444;
 }
 
 #sec__006 {
@@ -1025,7 +1026,7 @@ section {
 
 .sample {
   width: 100%;
-  margin: 15px 0;
+  margin: 2rem 0 15px;
 }
 
 
@@ -1092,9 +1093,8 @@ section {
 }
 
 .in-project {
-  font-weight:300;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 28px;
  /* color: #eda36b;  could change? */
 }
 
