@@ -89,19 +89,19 @@ h1 {
 
 @media screen and (max-width: 768px) {
 h1 {
-  font-size: 43px;
-  line-height: 55px;
+  font-size: 45px;
+  line-height: 57px;
   margin-block-end: 14px;
 }
-  
+}
 h2,
 .has-slideout > .col-2 button {
   font-family: "Apparat";
   font-style: normal;
   font-weight: 400;
-  font-size: 23px;
+  font-size: 24px;
   line-height: 36px;
-  letter-spacing: 1.75px;
+  letter-spacing: 1.7px;
   color: #444444;
 }
 
@@ -316,7 +316,7 @@ section {
 
 @media screen and (max-width: 768px) {
   #sec__001 {
-    padding: 2rem 0 0;
+    padding: 1rem 0 0;
   }
 
   #sec__001 .col-1,
@@ -988,7 +988,7 @@ section {
 .photo-5 {
   margin-left: 0px;
   position:absolute;
-  top:205px;
+  top:220px;
   z-index: -2;
 }
 }
