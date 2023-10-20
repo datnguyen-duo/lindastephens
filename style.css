@@ -80,8 +80,8 @@ h1 {
   font-weight: 200;
   font-size: 52px;
   line-height: 64px;
-  margin-block-end: 20px;
   letter-spacing: 2px;
+  margin-block-end: 20px;
   font-feature-settings: "kern" off;
   color: #888888;
 }
@@ -90,6 +90,7 @@ h1 {
 h1 {
   font-size: 45px;
   line-height: 57px;
+  letter-spacing: 1.5px;
   margin-block-end: 14px;
 }
 }
@@ -751,8 +752,8 @@ section {
   font-family: "Apparat";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 17px;
+  line-height: 31px;
   margin-top: auto;
 }
 
@@ -1147,6 +1148,7 @@ footer a:hover {
 
 @media screen and (max-width: 768px) {
   footer {
+    display: block;
     margin: 2em 0 0 0;
   padding: 2rem 1rem 2rem 30px;
   width:100%;
