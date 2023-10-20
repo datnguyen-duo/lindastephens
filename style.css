@@ -488,6 +488,7 @@ section {
   position: absolute;
   top: 2rem;
   right: 2rem;
+  z-index:5;
   height: 42px;
   width: 42px;
   cursor: pointer;
