@@ -118,12 +118,14 @@ h4 {
 
 h5 {
   font-family: "Apparat";
+  font-weight: 400;
   font-size: 19px;
   line-height: 29px;
   color: #8db076;
 }
 h6 {
   font-family: "Apparat";
+  font-weight: 300;
   font-size: 17px;
   line-height: 27px;
   color: #444;
@@ -368,8 +370,8 @@ section {
   border: none;
   color: #fff;
   cursor: pointer;
-  padding: 0.5rem 2rem;
-  border-radius: 15px;
+  padding: 0.5rem 1rem;
+  border-radius: 14px;
 }
 
 .has-slideout .slide-out {
@@ -677,8 +679,8 @@ section {
 #sec__005--1 ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 2rem 0 7rem;
-  padding: 15px 0;
+  margin: 2rem 0 6rem;
+  padding: 2rem 0;
   gap: 4rem;
   width: 100%;
   background-image: url(assets/offwhite-texture.png);
@@ -715,8 +717,8 @@ section {
   color: #fff;
   cursor: pointer;
   margin: 0.3em 28%;
-  padding: 0.4rem 1.5rem;
-  border-radius: 15px;
+  padding: 0.4rem 0.9rem;
+  border-radius: 13px;
   font-family: "Apparat";
   font-style: normal;
   font-weight: 400;
