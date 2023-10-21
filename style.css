@@ -974,7 +974,7 @@ section {
 }
 
 .not-first {
-  margin-left:3%;
+  margin-left:3% !important;
 }
 
 /* patterns / background textures   */
