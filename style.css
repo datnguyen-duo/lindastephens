@@ -2,7 +2,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-}
+}arrow
 
 html {
   margin: 0;
@@ -599,7 +599,8 @@ section {
   transform: rotate(45deg) translateY(1px);
 }
 
-.arrow:hover {
+.has-slideout .arrows .arrow::before:hover,
+.has-slideout .arrows .arrow::after:hover {
   background-color: #222;
 }
 
