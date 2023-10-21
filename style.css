@@ -538,8 +538,9 @@ section {
 
 .has-slideout .arrows {
   position: absolute;
-  top: -10rem;
+  top: -6rem;
   right: 2rem;
+  z-index:10;
   display: flex;
 }
 
@@ -1247,8 +1248,12 @@ footer {
 }
 
 .bb-icon {
-width:30px;
-  height:30px;
+width:45px;
+  height:45px;
+}
+.bb-icon img {
+width:100%;
+  height:auto;
 }
 
 footer h4 {
