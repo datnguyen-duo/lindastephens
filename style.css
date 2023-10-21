@@ -451,14 +451,7 @@ section {
   border-radius: 3px 3px 3px 68px;
 }
 
-.has-slideout .slide-out .featured {
- /* position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  z-index: 1;
-  padding: 5rem 0 4rem;
-  width: 0;  */
+.slide-out .featured {
   overflow: visible;
 }
 
