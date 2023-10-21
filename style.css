@@ -451,8 +451,8 @@ section {
   border-radius: 3px 3px 3px 68px;
 }
 
-.slide-out .featured {
-  overflow: visible;
+.has-slideout .slide-out .featured {
+  overflow: visible !important;
 }
 
 .has-slideout .slide-out .col-1 {
