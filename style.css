@@ -445,7 +445,7 @@ section {
   z-index: 1;
   padding: 5rem 0 4rem;
   width: 0;
-/*  overflow: hidden; */
+ overflow: hidden; 
   transition: width 0.3s 0.3s ease-in-out;
   background-color: #8db076;
   border-radius: 3px 3px 3px 68px;
