@@ -394,7 +394,7 @@ section {
   #sec__002 .col-2 {
     /* order: -1;  trying pics below */
     margin-bottom: 0.5rem;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
   }
 }
 .has-slideout {
