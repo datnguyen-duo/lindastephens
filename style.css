@@ -561,6 +561,11 @@ section {
   display: flex;
 }
 
+@media screen and (max-width: 768px) {
+  top: -4.0rem;
+  right: 1.0rem;
+}
+
 .has-slideout .arrows .arrow {
   height: 42px;
   width: 42px;
@@ -827,6 +832,7 @@ section {
 
 #sec__005--1 h1 {
   color: #8db076;
+  width: 115px;
 }
 
 #sec__005--1 ul {
@@ -1133,17 +1139,18 @@ section {
   border: 15px solid #f8f4f4;
 }
 
+/* linda combo */
 .photo-up {
   width: 105%;
 }
 
-/* linda combo */
 @media screen and (max-width: 768px) {
   .photo-5 {
     margin-left: 0px;
     margin-right: 30px;
     position: absolute;
     top: 230px;
+    width:95%;
     z-index: -2;
   }
 }
