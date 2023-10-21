@@ -562,8 +562,10 @@ section {
 }
 
 @media screen and (max-width: 768px) {
+ .has-slideout .arrows {
   top: -4.0rem;
   right: 1.0rem;
+ }
 }
 
 .has-slideout .arrows .arrow {
