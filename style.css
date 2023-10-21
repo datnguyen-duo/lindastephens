@@ -262,7 +262,7 @@ a:hover {
 
 .name {
   position: relative;
-  margin-left: 32px;
+  margin-left: 33px;
   font-family: "Apparat";
   font-style: normal;
   font-weight: 500;
@@ -1027,7 +1027,7 @@ section {
   /*background: #8db076; */
   /* background-image: url("assets/offwhite-texture.png"); */
   z-index: -1;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 6px 4px rgba(0, 0, 0, 0.05);
 }
 
 .tab-box-round-bl-full {
@@ -1041,6 +1041,7 @@ section {
   height: 100%;
 /*  background-image: none; */
   z-index: -1;
+  box-shadow: 0 2px 6px 4px rgba(0, 0, 0, 0.05);
 }
 
 .tab-box-round-tr {
@@ -1053,6 +1054,7 @@ section {
   color: #fff;
   background: #8db076;
   /* background-image: url("assets/offwhite-texture.png"); */
+  box-shadow: 0 2px 6px 4px rgba(0, 0, 0, 0.05);
 }
 
 @media screen and (max-width: 768px) {
