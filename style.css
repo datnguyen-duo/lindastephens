@@ -538,7 +538,7 @@ section {
 
 .has-slideout .arrows {
   position: absolute;
-  top: -6rem;
+  top: 2rem;
   right: 2rem;
   z-index:10;
   display: flex;
