@@ -462,8 +462,8 @@ section {
   width:100%;
 }
 
-.overflow .first {
-  margin-left:20px;
+.first {
+  padding-left:20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -542,7 +542,7 @@ section {
 
 .has-slideout .arrows {
   position: absolute;
-  top: -4.7rem;
+  top: -4.6rem;
   right: 2rem;
   z-index:10;
   display: flex;
