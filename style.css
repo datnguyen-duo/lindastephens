@@ -95,13 +95,19 @@ h1 {
 }
 h2,
 .has-slideout > .col-2 button {
-  font-family: "Apparat";
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  color: #666;
+  letter-spacing: normal;
+  
+  /* font-family: "Apparat";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 1.7px;
-  color: #444444;
+  color: #444444;   testing alt style from p intro */
 }
 
 h3 {
@@ -131,10 +137,10 @@ h4 {
 h5 {
   font-family: "Apparat";
   font-weight: 400;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 30px;
   letter-spacing: normal;
-  margin-block-start: 2em;
+  margin-block-start: 2.0em;
   margin-block-end: 0.3em;
   color: #8db076;
 }
@@ -175,7 +181,7 @@ p {
   letter-spacing: normal;
   display: inline;
   margin-bottom: 10px;
-}
+}  /* testing this as h2*/
 
 .strong {
   font-size: 19px;
@@ -198,7 +204,7 @@ background-image: linear-gradient(#f0b479, #eda36b);
 }
 
 .greenapple {
- background-image: linear-gradient(#8db076, #a1bd8d);
+ background-image: linear-gradient(#8db076, #a3bc88);
   /*  background: #8db076; */
 }
 
@@ -354,7 +360,7 @@ section {
 }
 
 #sec__001 {
-  padding: 5.5rem 0 11rem;
+  padding: 5.0rem 0 11rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -500,6 +506,10 @@ section {
 
 .has-slideout .slide-out p:not(:last-child) {
   margin-bottom: 0.6rem;
+}
+
+.has-slideout .slide-out .wpop {
+  overflow: hidden; 
 }
 
 .has-slideout .slide-out .close {
@@ -960,7 +970,11 @@ section {
 }
 
 .first {
-  padding-left:20px;
+  padding-left:22px;
+}
+
+.not-first {
+  margin-left:3%;
 }
 
 /* patterns / background textures   */
