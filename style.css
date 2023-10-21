@@ -748,8 +748,8 @@ section {
 }
 
 #sec__004 .col-2 .service-box__wrapper {
-  /* background-image: url(assets/green-texture.png); */
-  background: #8db076;
+  /* background-image: url(assets/green-texture.png); 
+  background: #8db076; */
   position: absolute;
   left: 0;
   bottom: 0;
