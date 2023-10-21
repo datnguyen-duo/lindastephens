@@ -393,6 +393,7 @@ section {
 @media screen and (max-width: 768px) {
   #sec__002 .col-2 {
     /* order: -1;  trying pics below */
+    margin-top: 0.5rem;
     margin-bottom: 0.5rem;
   }
 }
@@ -954,7 +955,7 @@ section {
 
 @media screen and (max-width: 768px) {
   .closing {
-    padding: 2rem 1rem 1rem 30px;
+    padding: 3rem 1rem 2rem 30px;
   }
 }
 
@@ -1049,7 +1050,7 @@ section {
   /*background: #8db076; */
   /* background-image: url("assets/offwhite-texture.png"); */
   z-index: -1;
-  box-shadow: inset 0 2px 7px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 8px 5px rgba(50, 60, 50, 0.05);
 /*  box-shadow: 0 2px 6px 4px rgba(0, 0, 0, 0.05);  */
 }
 
@@ -1328,10 +1329,9 @@ footer a:hover {
   }
 
   footer h4 {
-    display:none;
-    /*margin: 0 2rem 0 0;
+    margin: 0 2rem 0 0;
     font-size: 15px;
-    line-height: 23px; */
+    line-height: 23px; 
   }
 
   footer p {
