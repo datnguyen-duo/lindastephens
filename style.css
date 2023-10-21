@@ -538,7 +538,7 @@ section {
 
 .has-slideout .arrows {
   position: absolute;
-  top: -4.8rem;
+  top: -4.7rem;
   right: 2rem;
   z-index:10;
   display: flex;
@@ -574,7 +574,7 @@ section {
   height: 2px;
   width: 50%;
   margin: auto;
-  background-color: #666;
+  background-color: #8db076;
 }
 
 .has-slideout .arrows .arrow::before {
@@ -599,10 +599,6 @@ section {
   transform: rotate(45deg) translateY(1px);
 }
 
-.has-slideout .arrows .arrow::before:hover,
-.has-slideout .arrows .arrow::after:hover {
-  background-color: #222;
-}
 
 .has-slideout .slide-out.active {
   width: 95%;
