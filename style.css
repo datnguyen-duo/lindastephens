@@ -193,11 +193,13 @@ p {
 }
 
 .lorange {
-  background: #f0ae7b;
+background-image: linear-gradient(#f1b179, #eda36b);
+/*  background: #f0ae7b; */
 }
 
 .greenapple {
-  background: #8db076;
+ background-image: linear-gradient(#8db076, #a1bd8d);
+  /*  background: #8db076; */
 }
 
 a {
@@ -457,6 +459,7 @@ section {
 .has-slideout .slide-out .overflow {
   overflow-y: auto;
   height: 100%;
+  width:100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -1017,6 +1020,7 @@ section {
   /*background: #8db076; */
   /* background-image: url("assets/offwhite-texture.png"); */
   z-index: -1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 .tab-box-round-bl-full {
@@ -1191,7 +1195,8 @@ section {
 /* button   */
 .button {
   /*  background-color: #eda36b; */
-  background-color: white;
+  /* background-color: white; */
+  background-color: #f6f6f2;
   border: none;
   border-radius: 15px;
   padding: 14px;
@@ -1208,6 +1213,7 @@ section {
 }
 
 .button:hover {
+  color: #222;
   opacity: 0.9;
   box-shadow: 0px 2px 8px 8px rgba(80, 80, 80, 0.15);
 }
@@ -1238,7 +1244,6 @@ footer {
   width: 95%;
   /*  background: #8db076; */
   background: #f6f6f2;
-  box-shadow: 0px 4px 11px 7px rgba(110, 110, 100, 0.07);
 }
 
 footer h4 {
