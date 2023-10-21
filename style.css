@@ -538,7 +538,7 @@ section {
 
 .has-slideout .arrows {
   position: absolute;
-  top: -5rem;
+  top: -4.8rem;
   right: 2rem;
   z-index:10;
   display: flex;
@@ -558,6 +558,7 @@ section {
     width: 34px;
   }
 }
+
 .has-slideout .arrows .arrow.prev {
   margin-top: 1px;
 }
@@ -573,7 +574,7 @@ section {
   height: 2px;
   width: 50%;
   margin: auto;
-  background-color: #444;
+  background-color: #666;
 }
 
 .has-slideout .arrows .arrow::before {
@@ -596,6 +597,10 @@ section {
 
 .has-slideout .arrows .arrow.next::before {
   transform: rotate(45deg) translateY(1px);
+}
+
+.arrow:hover {
+  background-color: #222;
 }
 
 .has-slideout .slide-out.active {
