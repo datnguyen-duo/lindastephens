@@ -1250,6 +1250,7 @@ footer {
 .bb-icon {
 width:45px;
   height:45px;
+  margin-right:25px;
 }
 .bb-icon img {
 width:100%;
@@ -1292,9 +1293,10 @@ footer a:hover {
   }
 
   footer h4 {
-    margin: 0 2rem 0 0;
+    display:none;
+    /*margin: 0 2rem 0 0;
     font-size: 15px;
-    line-height: 23px;
+    line-height: 23px; */
   }
 
   footer p {
