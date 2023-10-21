@@ -193,7 +193,7 @@ p {
 }
 
 .lorange {
-background-image: linear-gradient(#f1b179, #eda36b);
+background-image: linear-gradient(#f1b179, orange);
 /*  background: #f0ae7b; */
 }
 
@@ -445,7 +445,7 @@ section {
   z-index: 1;
   padding: 5rem 0 4rem;
   width: 0;
-  overflow: hidden;
+  overflow-x: hidden;
   transition: width 0.3s 0.3s ease-in-out;
   background-color: #8db076;
   border-radius: 3px 3px 3px 68px;
@@ -538,7 +538,7 @@ section {
 
 .has-slideout .arrows {
   position: absolute;
-  top: 2rem;
+  top: -5rem;
   right: 2rem;
   z-index:10;
   display: flex;
