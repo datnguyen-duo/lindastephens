@@ -831,10 +831,12 @@ section {
   bottom: 0;
   right: 0;
 }
-
+@media screen and (max-width: 768px) {
 #sec__005--1 h1 {
   color: #8db076;
   width: 115px;
+  letter-spacing: 1px;
+}
 }
 
 #sec__005--1 ul {
