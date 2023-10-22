@@ -449,7 +449,7 @@ section {
   position: absolute;
   top: 0;
   right: 0;
-  height: 95%;
+  height: 100%;
   /*testing instead of 95 */
   z-index: 1;
   padding: 5rem 0 4rem;
@@ -513,7 +513,8 @@ section {
 
 .wpop {
   overflow: hidden; 
-  margin: 20px 0 0 0;
+  margin-top: 20px;
+  padding-bottom:10px;
 }
 
 .has-slideout .slide-out .close {
