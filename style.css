@@ -162,7 +162,7 @@ p {
   font-style: normal;
   font-weight: 300;
   font-size: 17px;
-  line-height: 27px;
+  line-height: 26px;
   /* or 145% */
   color: #333333;
 }
@@ -449,7 +449,7 @@ section {
   position: absolute;
   top: 0;
   right: 0;
-  height: 105%;
+  height: 100%;
   /*testing instead of 95 */
   z-index: 1;
   padding: 5rem 0 4rem;
