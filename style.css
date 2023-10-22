@@ -354,7 +354,7 @@ section {
   position: relative;
   display: block;
   margin: 0;
-  padding: 20px 0 80px;
+  padding: 20px 0 90px;
   width: 100%;
   height: auto;
   /* min-height: 400px; */
@@ -674,7 +674,7 @@ section {
 }
 #sec__003--1 {
   margin-top: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 #sec__004 {
