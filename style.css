@@ -513,6 +513,7 @@ section {
 
 .wpop {
   overflow: hidden; 
+  margin: 20px 0 0 0;
 }
 
 .has-slideout .slide-out .close {
@@ -1069,7 +1070,7 @@ section {
   position: absolute;
   left: 0;
   top: 0;
-  margin: 20px 0 0 0;
+  margin: 0;
   border-radius: 3px 3px 3px 68px;
   /*  radius only on the bottom left corner */
   width: 100%;
