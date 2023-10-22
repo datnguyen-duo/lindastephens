@@ -449,7 +449,7 @@ section {
   position: absolute;
   top: 0;
   right: 0;
-  height: 100%;
+  height: 95%;
   /*testing instead of 95 */
   z-index: 1;
   padding: 5rem 0 4rem;
