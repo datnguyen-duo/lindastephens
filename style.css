@@ -559,8 +559,8 @@ section {
 
 .has-slideout .arrows {
   position: absolute;
-  top: -4.5rem;
-  right: 1.6rem;
+  top: -4.4rem;
+  right: 1.5rem;
   z-index: 10;
   display: flex;
 }
@@ -841,7 +841,7 @@ section {
 
 @media screen and (max-width: 768px) {
   #sec__005--1 h1 {
-    margin-left:1rem;
+    margin-left:2rem;
     width: 115px;
     letter-spacing: 1px;
   }
@@ -1206,7 +1206,7 @@ section {
 .quote::before {
   content: url("/assets/c-quotes.png");
   position: absolute;
-  top: 0;
+  top: 2px;
   left: 0;
   font-size: 2em;
   font-family: inherit;
@@ -1343,7 +1343,7 @@ footer a:hover {
   footer {
     display: block;
     margin: 2em 0 0 0;
-    padding: 2rem 1rem 2rem 30px;
+    padding: 2rem;
     width: 100%;
   }
 
@@ -1354,7 +1354,7 @@ footer a:hover {
   }
 
   footer p {
-    margin: 1rem 30px 1.5rem 0;
+    margin: 1rem 0px 1rem 0;
     font-weight: 200;
     font-size: 12px;
   }
