@@ -91,7 +91,7 @@ h1 {
     font-size: 45px;
     line-height: 57px;
     letter-spacing: 1.5px;
-    margin-block-end: 14px;
+    margin-block-end: 16px;
   }
 }
 h2,
@@ -367,7 +367,7 @@ section {
 
 @media screen and (max-width: 768px) {
   #sec__001 {
-    padding: 0.5rem 0 0;
+    padding: 0.5rem 0 2rem 0;
   }
 
   #sec__001 .col-1,
@@ -394,7 +394,7 @@ section {
   #sec__002 .col-2 {
     /* order: -1;  trying pics below */
     margin-bottom: 0.5rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
   }
 }
 .has-slideout {
@@ -512,6 +512,12 @@ section {
 /* margin-top: 20px; */
 }
 
+@media screen and (max-width: 768px) {
+  .wpop {
+  padding-bottom: 60px; 
+}
+}
+
 .has-slideout .slide-out .close {
   position: absolute;
   top: 2rem;
@@ -560,8 +566,8 @@ section {
 
 @media screen and (max-width: 768px) {
   .has-slideout .arrows {
-    top: -3.8rem;
-    right: 0.8rem;
+    top: -3.6rem;
+    right: 0.7rem;
   }
 }
 .has-slideout .arrows .arrow {
@@ -855,7 +861,7 @@ section {
 
 @media screen and (max-width: 768px) {
   #sec__005--1 {
-    padding: 3rem 2rem 2rem 2rem;
+    padding: 1.4rem 0rem 2rem 1rem;
   }
 
   #sec__005--1 ul {
