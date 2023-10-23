@@ -239,6 +239,7 @@ a:hover {
   #top-bar {
     padding: 0;
     height: auto;
+    box-shadow: 0px 4px 7px 4px rgba(110, 110, 100, 0.085);
   }
 }
 #top-bar .wrapper {
@@ -657,6 +658,7 @@ section {
 
   .has-slideout .slide-out {
     height: 91%;
+    padding-bottom: 4rem;
   }
 
   .has-slideout .slide-out .col-1,
@@ -670,6 +672,7 @@ section {
     margin-bottom: 4rem;
   }
 }
+
 #sec__003--1 {
   margin-top: 2rem;
   margin-bottom: 3rem;
@@ -861,7 +864,7 @@ section {
 
 @media screen and (max-width: 768px) {
   #sec__005--1 {
-    padding: 1.4rem 0rem 2rem 1rem;
+    padding: 1.4rem 0rem 4rem 0rem;
   }
 
   #sec__005--1 ul {
