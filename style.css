@@ -841,7 +841,7 @@ section {
 
 @media screen and (max-width: 768px) {
   #sec__005--1 h1 {
-    color: #8db076;
+    margin-left:1rem;
     width: 115px;
     letter-spacing: 1px;
   }
