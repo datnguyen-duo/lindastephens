@@ -510,15 +510,14 @@ section {
 
 .wpop {
   overflow: hidden;
-/* margin-top: 20px; */
+  /* margin-top: 20px; */
 }
 
 @media screen and (max-width: 768px) {
   .wpop {
-  padding-bottom: 60px; 
+    padding-bottom: 60px;
+  }
 }
-}
-
 .has-slideout .slide-out .close {
   position: absolute;
   top: 2rem;
@@ -672,7 +671,6 @@ section {
     margin-bottom: 4rem;
   }
 }
-
 #sec__003--1 {
   margin-top: 2rem;
   margin-bottom: 3rem;
@@ -841,7 +839,7 @@ section {
 
 @media screen and (max-width: 768px) {
   #sec__005--1 h1 {
-    margin-left:2rem;
+    margin-left: 2rem;
     width: 115px;
     letter-spacing: 1px;
   }

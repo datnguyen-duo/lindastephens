@@ -68,3 +68,18 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+window.addEventListener("load", () => {
+  gsap.registerPlugin(ScrollTrigger);
+
+  gsap.utils.toArray(".pattern-1, .pattern-2, .pattern-3").forEach((el, i) => {
+    gsap.to(el, {
+      yPercent: -30,
+      scrollTrigger: {
+        trigger: el,
+        scrub: 1.1,
+        start: i == 0 ? "top 10%" : null,
+      },
+    });
+  });
+});
