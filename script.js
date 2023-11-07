@@ -74,10 +74,10 @@ window.addEventListener("load", () => {
 
   gsap.utils.toArray(".pattern-1, .pattern-2, .pattern-3").forEach((el, i) => {
     gsap.to(el, {
-      yPercent: -30,
+      yPercent: -50,
       scrollTrigger: {
         trigger: el,
-        scrub: 1.1,
+        scrub: true,
         start: i == 0 ? "top 10%" : null,
       },
     });
