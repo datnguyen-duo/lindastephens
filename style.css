@@ -57,7 +57,8 @@ li.extra {
 
 li.extra:hover {
   transform: rotate(0deg) translateX(7px);
-  color: #8db076;
+  /* color: #8db076; */
+  color: #9cbc80;
 }
 
 li.bull {
@@ -120,7 +121,8 @@ h3 {
   line-height: 39px;
   letter-spacing: 1.4px;
   margin-block-end: 0.6em;
-  color: #8db076;
+  /* color: #8db076; */
+   color: #9cbc80;
 }
 
 @media screen and (max-width: 900px) {
@@ -144,7 +146,8 @@ h5 {
   letter-spacing: normal;
   margin-block-start: 2em;
   margin-block-end: 0.3em;
-  color: #8db076;
+  /* color: #8db076; */
+  color: #9cbc80;
 }
 
 h6 {
@@ -216,7 +219,7 @@ p {
 }
 
 .greenapple {
-  background-image: linear-gradient(#8db076, #a3bc88);
+  background-image: linear-gradient(#8db076, #9cbc80);
   /*  background: #8db076; */
 }
 
@@ -467,7 +470,8 @@ section {
   width: 0;
   /*  overflow: hidden; */
   transition: width 0.3s 0.3s ease-in-out;
-  background-color: #8db076;
+  /* background-color: #8db076; */
+  background-color: #9cbc80;
   border-radius: 3px 3px 3px 68px;
 }
 
@@ -609,7 +613,8 @@ section {
   height: 2px;
   width: 50%;
   margin: auto;
-  background-color: #8db076;
+  /* background-color: #8db076; */
+  background-color: #9cbc80;
 }
 
 .has-slideout .arrows .arrow::before {
@@ -761,7 +766,8 @@ section {
 
 #sec__004 .col-1 ul li.active {
   font-weight: 500;
-  color: #8db076;
+  /*color: #8db076; */
+  color: #9cbc80;
 }
 
 #sec__004 .col-2 {
@@ -918,12 +924,13 @@ section {
 }
 
 #sec__005--1 .slide-out {
-  background: #f6f7f2;
+  background: #f6f6f2;
   color: #000;
 }
 
 #sec__005--1 h1 {
-  color: #8db076;
+  /*color: #8db076; */
+  color: #9cbc80;
 }
 
 #sec__005--1 .slide-out .active h2 {
@@ -1102,8 +1109,8 @@ section {
   border-radius: 3px 68px 3px 3px;
   width: 95%;
   color: #fff;
-  background: #8db076;
-  /* background-image: url("assets/offwhite-texture.png"); */
+ /* background: #8db076; */
+  background: #9cbc80; 
   box-shadow: inset 0 2px 9px 6px rgba(20, 20, 20, 0.05);
   /*  box-shadow: 0 2px 6px 4px rgba(0, 0, 0, 0.05); */
 }
@@ -1154,7 +1161,7 @@ section {
 .photo-3 img,
 .photo-5 img {
   width: 100%;
-  border: 15px solid #f8f4f4;
+  border: 15px solid #f6f6f2;
 }
 
 /* linda combo */
