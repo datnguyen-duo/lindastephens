@@ -161,6 +161,25 @@
             "delay": 0
         },
         {
+            "key": "field_657100f5a41fe",
+            "label": "Script",
+            "name": "script",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
             "key": "field_65612a1eeffbb",
             "label": "Links",
             "name": "links",
@@ -217,5 +236,5 @@
     ],
     "active": true,
     "description": "",
-    "modified": 1700866640
+    "modified": 1701904649
 }

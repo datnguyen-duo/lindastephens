@@ -3,12 +3,14 @@ $themeurl = get_bloginfo('template_url');
 
 $cta = get_field('cta', 'option');
 $name = get_field('name', 'option');
+$script = get_field('script', 'option');
 $links = get_field('links', 'option');
 
 ?>
 
 				<section class="closing">
 					<?php echo $cta ? $cta : null; ?>
+					<?php echo $script ? $script : null; ?>
 				</section>
 			</div> <!-- end #main -->
 
